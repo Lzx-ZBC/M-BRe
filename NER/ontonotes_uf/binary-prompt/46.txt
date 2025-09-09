@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/political_figure" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The building behind me used to be the Governor General's Mansion during the colonial era.
+Entity: The
+Answer: Yes.
+
+Sentence: The Legend of Bagger Vance directed by Robert Redford is the latest movie to bring the game of golf to the screen and is one of the most popular attractions of theaters in the United States.
+Entity: The
+Answer: No.
+
+Sentence: As Marshall toyed with `` flexibility'' -- and the Joint Chiefs cherry-picked his conjuring of Moscow's might for their own budgetary purposes, while ignoring the real import, and limits, of RMA -- the Cold War ended in the equivocations and evasions of Bill Clinton's two terms in office and the low-rent, self-congratulatory installing of mafia regimes in Bosnia and Kosovo.
+Entity: Marshall
+Answer: Yes.
+
+Sentence: Well Dave, tens of thousands of Serbs have taken to the streets and towns and cities throughout Yugoslavia to celebrate as President-elect Vojislav Kostunica prepares to take office.
+Entity: streets
+Answer: No.
+
+Sentence: `` Anybody can vote as they want,'' said Rep. William Lehman-LRB-D., Fla.-RRB -, head of the House conferees.
+Entity: William
+Answer: Yes.
+
+Sentence: And any NBC effort could prompt CBS Inc. and ABC's parent, Capital Cities/ABC Inc., to look for ways of skirting the fin-syn regulations.
+Entity: CBS
+Answer: No.
+
+Sentence: Buckingham Palace released his pictures of William, brother Harry and their father, Prince Charles in what some see as a skilled marketing campaign to sell the monarchy to the next generation of Britains.
+Entity: Britains
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/political_figure" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

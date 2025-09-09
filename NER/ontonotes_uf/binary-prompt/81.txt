@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/product/car" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: As for the hybrid motors, ah, this time I observed that it was the second generation hybrid motors that had been put in the products, ah.
+Entity: hybrid
+Answer: Yes.
+
+Sentence: They should be told that we will have to reconsider our position if you do n't live up to your time table including the withdrawal of American forces.
+Entity: time table
+Answer: No.
+
+Sentence: When his Seventh Avenue fur business here was flying high 20 years ago, Jack Purnick had 25 workers and a large factory.
+Entity: large
+Answer: Yes.
+
+Sentence: Do you want to kill us and our people?''
+Entity: kill
+Answer: No.
+
+Sentence: Every Sabbath day Paul went to the synagogue and talked with both Jews and Greeks, trying to persuade them to believe in Jesus.
+Entity: Every
+Answer: Yes.
+
+Sentence: Officials say they have reduced the reunion schedule from four days to three and will spend some $800,000 to bring the families together, compared to the nearly $1.6 million it spent for the August event.
+Entity: August
+Answer: No.
+
+Sentence: Joab told the messenger to tell King David what had happened in the battle.
+Entity: King David
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/product/car" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

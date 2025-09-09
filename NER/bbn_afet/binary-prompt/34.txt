@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/GPE/CITY" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: He now runs Policy Communications in Washington, consulting to media companies.
+Entity: Washington
+Answer: Yes.
+
+Sentence: The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have.
+Entity: The
+Answer: No.
+
+Sentence: More broadly, Mr. Boren hopes that Panama will shock Washington out of its fear of using military power.
+Entity: Washington
+Answer: Yes.
+
+Sentence: For example, the iced-tea radio campaign for Thomas J. Lipton Co., an Englewood Cliffs, N.J., unit of Anglo-Dutch Unilever Group, emphatically proclaims: `` Real Texans do not wear dock-siders -- ever.
+Entity: Texans
+Answer: No.
+
+Sentence: Aldus, Seattle, makes computer software products.
+Entity: Seattle
+Answer: Yes.
+
+Sentence: Paul L. Kane, Laurel's president at the time, quickly responded.
+Entity: Paul
+Answer: No.
+
+Sentence: The sudden growth of the opposition movement, together with the steady outflow of citizens escaping through Poland and Hungary, has plunged the country into its deepest political crisis since an anti-Soviet workers' uprising in 1953.
+Entity: uprising
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/GPE/CITY" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

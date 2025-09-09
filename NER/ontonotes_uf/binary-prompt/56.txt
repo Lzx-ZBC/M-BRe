@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/hotel" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: -LSB- dasanicool -RSB- Pointing at a residential subdivision near Zhongshang Plaza on Zhangzhou No. 2 Road, a Korean Chinese working as an interpreter for South Koreans said: `` In this neighborhood, 40% of the residents are South Korean. ``
+Entity: Plaza
+Answer: Yes.
+
+Sentence: The Galileo worm apparently was hatched on a computer in France hooked up to NASA's Space Physics Analysis Network, Mr. Redmond said.
+Entity: The
+Answer: No.
+
+Sentence: The Excalibur, with a castlelike hotel, jousting tournaments and other Arthurian attractions, will be able to handle up to 30,000 visitors a day when it opens in 1990.
+Entity: Excalibur
+Answer: Yes.
+
+Sentence: You are a rich meal for every enemy of the Arabs and Muslims...
+Entity: Muslims
+Answer: No.
+
+Sentence: Stephen A. Wynn, who owns 29.4% of Golden Nugget's shares, says the Mirage and other projects will help Las Vegas attract a whole new generation of visitors.
+Entity: Golden Nugget
+Answer: Yes.
+
+Sentence: So she said to Herod, `` Give me the head of John the Baptizer here on this plate.''
+Entity: Herod
+Answer: No.
+
+Sentence: The men said, `` A holy angel told Cornelius to invite you to his house.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/hotel" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

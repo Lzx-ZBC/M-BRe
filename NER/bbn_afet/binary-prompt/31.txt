@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LANGUAGE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` Even before the market drop, rates were down about half a percentage point,'' said Robert J. Hutchinson, senior vice president for retail marketing at Manufacturers Hanover Trust Co. in New York.
+Entity: Even
+Answer: Yes.
+
+Sentence: Also, the high price of San Francisco real estate puts the state at odds with federal regulations more attuned to the national average.
+Entity: San Francisco
+Answer: No.
+
+Sentence: `` When we started the program six years ago, the use of Filipino was deemed unwise by the predominantly middle class,'' says Lydia Brown, the program's creator.
+Entity: Filipino
+Answer: Yes.
+
+Sentence: Shortly after buying 66% of the team from H.R. `` Bum'' Bright for $145 million, and mindful of the Cowboys' ragged bottom line, the 47-year-old Mr. Jones set about his own round of team cuts.
+Entity: cuts
+Answer: No.
+
+Sentence: Charles F. Vihon
+Entity: F.
+Answer: Yes.
+
+Sentence: A spokesman for Shearson said the brokerage service will be directed at individual investors who want to buy foreign and domestic stocks.
+Entity: domestic
+Answer: No.
+
+Sentence: `` We're in the process of discussing an amended plan with the creditors and anticipate filing that amended plan shortly,'' Mr. Lorenzo told reporters.
+Entity: We
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LANGUAGE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

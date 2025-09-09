@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/POLITICAL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: If the LDP, as currently composed, ca n't make the transformation, then it should split into two parties.
+Entity: LDP
+Answer: Yes.
+
+Sentence: In New York Stock Exchange composite trading, Xerox closed at $62.75 a share, up $1.
+Entity: Xerox
+Answer: No.
+
+Sentence: At one point, the Dow Jones Industrial average fell about 80 points on news that UAL Corp. decided to remain independent.
+Entity: independent
+Answer: Yes.
+
+Sentence: The previous year's third quarter included gains on the sale of aircraft by the company's Aviation Leasing & amp; Services Division.
+Entity: The
+Answer: No.
+
+Sentence: At one point, the Dow Jones Industrial average fell about 80 points on news that UAL Corp. decided to remain independent.
+Entity: independent
+Answer: Yes.
+
+Sentence: The stock received another blow on Friday, when Goldman Sachs analyst Eric Philo advised that investors with short-term horizons should avoid Dun & amp; Bradstreet stock because it is unlikely to outperform the market.
+Entity: Goldman
+Answer: No.
+
+Sentence: In the first hour of trading, about one million shares a minute changed hands on the Big Board as big stock-index arbitrage sell programs pushed prices lower.
+Entity: big
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/POLITICAL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

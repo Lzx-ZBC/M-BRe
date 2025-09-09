@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/SUBSTANCE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: National Intergroup, which owns 50% of the nation's sixth largest steelmaker -- National Steel Corp. -- posted net income for the fiscal second-quarter of $8.6 million, or 33 cents a share, compared with a net loss of $50.3 million.
+Entity: steelmaker
+Answer: Yes.
+
+Sentence: But he says that's no more a reason for banning Egg Kings than bad drivers are a reason for banning cars.
+Entity: Egg
+Answer: No.
+
+Sentence: As the London trading session drew to a close, the market was still listening to the parliamentary debate on the economy, with new Chancellor of the Exchequer John Major expected to clarify his approach to the British economy and currency issues.
+Entity: As
+Answer: Yes.
+
+Sentence: Connecticut Light & amp; Power Co. --
+Entity: Connecticut
+Answer: No.
+
+Sentence: Then, traders say, corporations with share buy-back programs kicked into high gear, triggering gains in, among other issues, Alcan Aluminium and McDonald's.
+Entity: Aluminium
+Answer: Yes.
+
+Sentence: But advancing issues topped decliners by 784 to 700 on the Big Board despite the late sell programs, resulting from stock-index arbitrage.
+Entity: advancing
+Answer: No.
+
+Sentence: `` Low P-E'' stocks, he says, vastly outperform others `` during a recession or bear market.''
+Entity: Low
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/SUBSTANCE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

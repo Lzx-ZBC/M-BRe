@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/government" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: I do n't think they posed a threat to the republic that clearly at this moment Mark Felt and some other people in the FBI thought.
+Entity: FBI
+Answer: Yes.
+
+Sentence: Shanxi province's borrowed foreign loans account for 65% of the total amount of foreign investment utilized in the whole province, including loans from international finance organizations, foreign government loans, international business loans, export credits, etc.
+Entity: borrowed
+Answer: No.
+
+Sentence: The White House and the Democratic leadership in Congress blame each other for turning capital-gains taxes into such a divisive issue this year.
+Entity: Congress
+Answer: Yes.
+
+Sentence: The Treasury's benchmark 30-year bond gained about an eighth of a point, or about $1.25 for each $1,000 face amount.
+Entity: The
+Answer: No.
+
+Sentence: The House passed the bill in May, the Senate last month.
+Entity: The House
+Answer: Yes.
+
+Sentence: The police found they put the bottle of unfinished wine in the car without the lid after lunch.
+Entity: The
+Answer: No.
+
+Sentence: What else do I need?''
+Entity: What
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/government" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

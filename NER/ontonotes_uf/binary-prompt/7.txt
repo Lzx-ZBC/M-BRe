@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/country" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Mrs. Marcos and her late husband, former Philippines President Ferdinand Marcos, were charged with embezzling more than $100 million from that country and then fraudulently concealing much of the money through purchases of prime real estate in Manhattan.
+Entity: Philippines
+Answer: Yes.
+
+Sentence: God Almighty said: -LRB- The punishment of those who wage war against God and His Messenger, and strive with might and main for mischief through the land is execution, or crucifixion, or the cutting off of hands and feet from opposite sides, or exile from the land.
+Entity: cutting
+Answer: No.
+
+Sentence: On the western side, the US organized NATO and supported West Germany for the purpose of keeping the USSR `` in check ``; on the eastern side, the USSR organized the Warsaw Pact, and built up East Germany as the bridgehead against the West.
+Entity: East Germany
+Answer: Yes.
+
+Sentence: I do n't think it ever serves any purpose when a military commander tells the international world the internal community where a particular enemy might be.
+Entity: military commander
+Answer: No.
+
+Sentence: There also are recurring reports that the Soviet Union is having difficulties with its oil exports and that Nigeria has about reached its production limit and ca n't produce as much as it could sell.
+Entity: Nigeria
+Answer: Yes.
+
+Sentence: Although the court did not specifically address media websites, lawyers on both sides of the case said the ruling would protect newspapers and other media that report defamatory remarks by third parties on their websites but not on their pages or on air.
+Entity: protect
+Answer: No.
+
+Sentence: The council issued a statement vowing not to give in to what it calls Israeli aggression.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/country" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

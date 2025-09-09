@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/living_thing/animal" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It becomes a tree big enough for the birds to come and make nests in its branches.''
+Entity: birds
+Answer: Yes.
+
+Sentence: Further hunting will be sufficient to lead to the extinction of the gorilla if mankind does not stop.
+Entity: gorilla
+Answer: No.
+
+Sentence: Last year a gunner shot a whooper by mistake thinking that it was a snow goose.
+Entity: snow goose
+Answer: Yes.
+
+Sentence: If Mr. Gorbachev is looking toward unleashing the productive forces of the market, these latest resolutions are nothing short of reckless.
+Entity: Gorbachev
+Answer: No.
+
+Sentence: Thomas Plaskett, Pan Am's chairman, said the U.S. airline's participation is a natural outgrowth of its current arrangements with Aeroflot to jointly operate nonstop New York-Moscow flights.
+Entity: Pan
+Answer: Yes.
+
+Sentence: The investment in urban infrastructure construction in Xining has been insufficient for a long period of time.
+Entity: The
+Answer: No.
+
+Sentence: First Ang Lee's Crouching Tiger, Hidden Dragon won Golden Globes for best director and best foreign-language film as well as 10 Oscar nominations, and then Lin Cheng-sheng won the Silver Bear at the Berlin Film Festival for Betelnut Beauty.
+Entity: film
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/living_thing/animal" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

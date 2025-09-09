@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: L.J. Hooker, based in Atlanta, is operating with protection from its creditors under Chapter 11 of the U.S. Bankruptcy Code.
+Entity: Atlanta
+Answer: Yes.
+
+Sentence: Senior Israeli officials telling CNN that the size of the area to be returned to the Gaza Strip is not so much the question confirming that, in fact, returning all of the Gaza Strip to Palestinian security control is one of the options the Israelis have indeed put on the table.
+Entity: officials
+Answer: No.
+
+Sentence: In February 2005, just one day after Chinese people's traditional Spring Festival, the Japanese government claimed the lighthouse set on Diaoyu Island by Japan's extreme rightist group without permission as its national property and put in under the administration of Japan.
+Entity: Japan
+Answer: Yes.
+
+Sentence: Department officials say that HHS Secretary Louis Sullivan will support Dr. Mason's ruling, which will be issued soon in the form of a letter to the acting director of the National Institutes of Health.
+Entity: HHS
+Answer: No.
+
+Sentence: He also made poems and paired-couplets out of the ancient inscriptions, pioneering a personal `` something new from something old `` approach.
+Entity: ancient
+Answer: Yes.
+
+Sentence: In an apparent warning to currency traders who have lately been selling the British currency, he stated that the exchange rates will have a `` major role in the assessment of monetary conditions.''
+Entity: British
+Answer: No.
+
+Sentence: As Wu explains, the OECD definition of the knowledge-based economy embraces all kinds of industries, from Italian shoes to Dutch flowers.
+Entity: Dutch
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

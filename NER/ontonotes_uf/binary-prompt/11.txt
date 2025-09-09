@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The White House warned that this would be an unconstitutional usurpation of its power.
+Entity: White House
+Answer: Yes.
+
+Sentence: He is not only one of the `` wonders `` of Taiwan's journalistic world, but is also recognized by those of his generation as a gentleman and a `` good-looking man. ``
+Entity: He
+Answer: No.
+
+Sentence: Alvin W. Trivelpiece, director of Oak Ridge National Laboratory, Oak Ridge, Tenn., was elected a director of this optical-products concern.
+Entity: Oak Ridge
+Answer: Yes.
+
+Sentence: Dealers said the market did n't react substantially to Ford Motor Co.'s disclosure to the U.S. Securities and Exchange Commission that it will seek 100% of Jaguar's shares outstanding when U.K. government share regulations are lifted at the end of next year.
+Entity: Ford Motor Co.
+Answer: No.
+
+Sentence: The reporters were victims and some of the victims turned into unofficial reporters.
+Entity: victims
+Answer: Yes.
+
+Sentence: House Speaker Thomas Foley won $510,000 for a project in his district in Washington state, and $1.3 million, earmarked by Sen. Daniel Inouye, amounts to a business subsidy under the title `` Hawaiian sugar mills job retention.''
+Entity: Daniel Inouye
+Answer: No.
+
+Sentence: -LSB- Bcc -RSB- Of all that you struggle for, the only thing left may be a limited amount of money and this child's nationality.
+Entity: Of
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

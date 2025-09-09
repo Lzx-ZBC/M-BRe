@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FACILITY" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: More important, he emerged as a peacemaker last summer after the Central Park rape of a white jogger -- in which a group of Harlem teens was charged -- and the racial murder of a black teen-ager in the white Brooklyn neighborhood of Bensonhurst.
+Entity: Central Park
+Answer: Yes.
+
+Sentence: MADD did n't learn of the fund raising until the couple sent it a check for $613, along with a letter saying that was the charity's `` share.''
+Entity: raising
+Answer: No.
+
+Sentence: David Rahill of A. Foster Higgins & amp; Co. said that clients of his consulting firm report that utilization management reduces their hospital care bills by about 5%, but he agreed that for the health-care system as whole, some of these savings are offset by administrative and outpatient care costs.
+Entity: hospital
+Answer: Yes.
+
+Sentence: Alter some details of this example and it could be taking place today at Federal Express in Memphis, the Defense and Underseas Systems divisions of Honeywell in Minneapolis, a General Electric plant in Columbia, Md., or a number of other companies.
+Entity: Honeywell
+Answer: No.
+
+Sentence: The White House already is talking of Mr. Bush visiting the California earthquake site this weekend.
+Entity: White House
+Answer: Yes.
+
+Sentence: Chrysler officials said the plant is scheduled to resume production on Nov. 20., and 3,300 hourly workers will be affected.
+Entity: Chrysler
+Answer: No.
+
+Sentence: In yesterday's accord, Quebecor agreed to pay $400 million in cash for Maxwell Graphics, and to give Maxwell Communication a 20% stake, valued at $100 million, in Quebecor's new printing subsidiary.
+Entity: In
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FACILITY" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

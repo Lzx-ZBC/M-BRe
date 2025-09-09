@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/transit/road" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The main reason: salmonella.
+Entity: The main
+Answer: Yes.
+
+Sentence: An official from the Jiangsu Agriculture and Forestry Department said that, since 1994 the number of `` three-capital `` enterprises that have been approved by the agricultural system of Jiangsu province has exceeded 500, and the amount of foreign capital being put to use was more than 700 million US dollars, which represented threefold and sevenfold increases, respectively, over the years before 1993.
+Entity: exceeded
+Answer: No.
+
+Sentence: Moffat & Nichol, an engineering consulting firm, prepared a study for the Virginia Port Authority last year advocating development of a major intermodal park off U.S. 460 as a way to handle an anticipated 900,000 additional containers annually expected to move through the ports.
+Entity: U.S. 460
+Answer: Yes.
+
+Sentence: This week, many carriers are announcing cut-rate fares designed to get people to fly on some of the most hallowed -- and slowest -- days of the year, including Christmas.
+Entity: This
+Answer: No.
+
+Sentence: But the real assignment was on road trips. ^,, ^ would probably find any trip you ever made in The Slut to be of interest.
+Entity: road trips
+Answer: Yes.
+
+Sentence: Mr. Netanyahu would win easily according to polls.
+Entity: Netanyahu
+Answer: No.
+
+Sentence: The new agency group is already in discussions about a possible purchase in Spain, while Mr. Breene said it also plans to make acquisitions in Scandinavia, Germany and elsewhere.
+Entity: Spain
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/transit/road" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

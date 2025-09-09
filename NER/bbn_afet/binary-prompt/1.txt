@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/WORK_OF_ART" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` People are looking past supply to lower interest rates, but they're also worried about being whipsawed by the volatility in the stock market.''
+Entity: People
+Answer: Yes.
+
+Sentence: NCNB will acquire University Federal Savings Association, Houston, which had assets of $2.8 billion.
+Entity: NCNB
+Answer: No.
+
+Sentence: In the quarterly report, Arthur Ochs Sulzberger, New York Times Co. chairman and chief executive officer, said negative factors affecting third-quarter earnings will continue.
+Entity: New York Times
+Answer: Yes.
+
+Sentence: In the past five years, more than 68% of its sales have been outside the U.S..
+Entity: In
+Answer: No.
+
+Sentence: The traders were executing municipal bond, mutual fund and other orders through a sister firm, Tucker Anthony Inc., which is also owned by John Hancock Freedom Securities but is based in New York.
+Entity: The
+Answer: Yes.
+
+Sentence: Much depends on the opposition, a loose group of regional and ideological parties led by former Gandhi cabinet minister Vishwanath Pratap Singh.
+Entity: Much
+Answer: No.
+
+Sentence: Tribune Co., helped by a hefty boost in performance at its broadcasting and entertainment operations, said net income jumped 21% in its third quarter ended Sept. 24 on a 3% increase in revenue.
+Entity: Tribune Co.
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/WORK_OF_ART" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

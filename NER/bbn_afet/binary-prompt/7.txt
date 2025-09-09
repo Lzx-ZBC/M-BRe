@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/GPE/STATE_PROVINCE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: However, insurance brokers and executives say that the combination of the Bay area earthquake, Hugo and last week's explosion at the Phillips Petroleum Co.'s refinery in Pasadena, Texas, will cause property insurance and reinsurance rates to jump.
+Entity: Texas
+Answer: Yes.
+
+Sentence: The 1989 Series, disrupted by a devastating earthquake and diminished in national interest because both teams came from the San Francisco Bay area, is likely to end up as the lowest-rated Series of this decade and probably since the event has been broadcast.
+Entity: The
+Answer: No.
+
+Sentence: But dry growing conditions in the Red River Valley of Minnesota and North Dakota are pushing spot prices of potatoes beyond what Michael contracted to pay last spring.
+Entity: Minnesota
+Answer: Yes.
+
+Sentence: We read with interest Robert Tomsho's Sept. 28 page-one article on Robert Redford (`` The Sundance Kid Gets Little Respect Around Sundance'').
+Entity: Redford
+Answer: No.
+
+Sentence: These are the 26 states, including the commonwealth of Puerto Rico, that have settled with Drexel: Alaska, Arkansas, Delaware, Georgia, Hawaii, Idaho, Indiana, Iowa, Kansas, Kentucky, Maine, Maryland, Minnesota, Mississippi, New Hampshire, New Mexico, North Dakota, Oklahoma, Oregon, South Carolina, South Dakota, Utah, Vermont, Washington, Wyoming and Puerto Rico.
+Entity: Idaho
+Answer: Yes.
+
+Sentence: Both of Dr. Baltimore's public faces have been on view the past few weeks while he was under consideration to succeed Joshua Lederberg as head of the prestigious Rockefeller research institution.
+Entity: Baltimore
+Answer: No.
+
+Sentence: Democrats argued that the training wage was a way of allowing employers to pay less than the minimum wage, while new workers need far less than six months to be trained for their jobs.
+Entity: Democrats
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/GPE/STATE_PROVINCE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

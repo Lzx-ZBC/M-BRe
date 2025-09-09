@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/health/malady" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: He had a compound fracture in his leg and severe burns all over his body,
+Entity: compound fracture
+Answer: Yes.
+
+Sentence: So, later I remember there was -- Mm. A guy in the engineering team, and he brought Quotations from Chairman Mao and said to me, He said, now take this, now take these Quotations from Chairman Mao and teach yourselves, and in the future you'll take up arms and teach yourselves.
+Entity: Chairman Mao
+Answer: No.
+
+Sentence: The charges in the 12-count indictment, which stem from events that allegedly occurred in late 1984 and early 1985, involve enrollment procedures of six students and the preparation of certain reports, Wilfred said.
+Entity: late
+Answer: Yes.
+
+Sentence: Meanwhile, the Duke, who set the original scheme in motion, appears on the scene disguised as a friar and becomes involved in a series of intrigues that has everyone fearing the worst possible outcome until the Duke arranges a last minute reprieve for all concerned.
+Entity: motion
+Answer: No.
+
+Sentence: Lien Chang-yu, a senior reporter covering film and TV for the United Daily News, explains that FTV has been successful in the 8:00 time slot not only because `` the use of Taiwanese language fits right in with the trends of the times, `` but also because `` the inclusion of little conversations and incidents that occur in everyday life makes these series accessible and familiar to the viewers. ``
+Entity: fits
+Answer: Yes.
+
+Sentence: The bank syndicate is made up mostly of European banks, but it includes China's state-owned Citic Industrial Bank.
+Entity: The
+Answer: No.
+
+Sentence: He said that there was a committee of lawmakers in Brussels that was gathering evidence on the crimes of Moqtada Al Sadr and his militias.
+Entity: Moqtada Al Sadr
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/health/malady" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

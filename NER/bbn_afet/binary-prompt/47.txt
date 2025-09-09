@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/EVENT/WAR" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The reserves dropped for the first time in recent years, to $14 billion in June from $19 billion in April.
+Entity: dropped
+Answer: Yes.
+
+Sentence: Moody's said it is assessing the strategies Ryder's management may follow in addressing significant challenges in some major markets.
+Entity: Moody
+Answer: No.
+
+Sentence: Two years later, he opened one in West Germany.
+Entity: Two
+Answer: Yes.
+
+Sentence: Instead, Congress's idea of reform is to increase this slush fund by $28.4 million.
+Entity: Congress
+Answer: No.
+
+Sentence: Assets as of Sept. 30 fell to $2.46 billion from about $2.77 billion.
+Entity: fell
+Answer: Yes.
+
+Sentence: Bell's father-in-law, Gardner G. Hubbard, wealthy and well-connected, obtained financing to start the American Bell Telephone Co. in Boston, which even had a subsidiary in New York called the Telephone Co. of New York.
+Entity: Hubbard
+Answer: No.
+
+Sentence: All three major creditors -- the IRS, Minpeco and Manufacturers Hanover -- voted against and effectively doomed a reorganization plan proposed by Mr. Hunt.
+Entity: All
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/EVENT/WAR" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

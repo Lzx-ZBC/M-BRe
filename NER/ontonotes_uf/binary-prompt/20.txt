@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/sports_team" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The baseball commissioner announced that the third game of the World Series between the Giants and the Athletics would n't resume until Friday.
+Entity: baseball
+Answer: Yes.
+
+Sentence: Within this setting he embarked on his first film project as director, a collaboration with his residencia friend Salvador Dali, entitled Un Chien Andalou.
+Entity: Within
+Answer: No.
+
+Sentence: Such a dual role would be `` impractical and unethical,'' Warner said, adding, `` that concept is as silly as suggesting that the head coach of the Los Angeles Dodgers could simultaneously be general manager of the San Francisco Giants.''
+Entity: Los Angeles Dodgers
+Answer: Yes.
+
+Sentence: I've been so damn busy man
+Entity: man
+Answer: No.
+
+Sentence: Lynn Morgan President of the Soccer Association is one of those who has the job of organizing this global event that has only got four months to get put together instead of four years as usual and she joins us from Atlanta this morning.
+Entity: Soccer
+Answer: Yes.
+
+Sentence: As Northeastern glided like a giant pedagogical battleship toward the end of its second century, there came a sneak attack from the employment sector.
+Entity: attack
+Answer: No.
+
+Sentence: Currently Russia seems to be in a period of low tide, but it wo n't stay this way forever.
+Entity: Russia
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/sports_team" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/CORPORATION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Until then, Conseco said the stock remains convertible into common stock at the rate of 1.439 shares of common stock for each share of preferred stock, which is equivalent to a conversion price of $17.50 a common share.
+Entity: Conseco
+Answer: Yes.
+
+Sentence: OPEC's ability to produce more petroleum than it can sell is beginning to cast a shadow over world oil markets.
+Entity: petroleum
+Answer: No.
+
+Sentence: `` We believe that it is vitally important for those Japanese business interests { in the U.S.. } to be more aware of the emotions and concerns of the American people,'' said the spokesman, Taizo Watanabe.
+Entity: Watanabe
+Answer: Yes.
+
+Sentence: After a flat second quarter tied largely to lower newsprint earnings, Kimberly-Clark attributed the gain to improved results in its consumer businesses in North America, Brazil and Korea.
+Entity: Brazil
+Answer: No.
+
+Sentence: Other major issues hitting highs included American Telephone & amp; Telegraph Co., Westinghouse Electric Corp., Exxon Corp. and Cigna Corp., the big insurer.
+Entity: big
+Answer: Yes.
+
+Sentence: But all funding is cut for the Philippines, and projects in South Korea are cut to $13.6 million, or less than a sixth of the administration's request.
+Entity: Philippines
+Answer: No.
+
+Sentence: The Des Moines-based publisher said it created a new Custom Marketing Group that will offer advertisers special rates for combination packages in its magazines, such as Ladies Home Journal and Better Homes and Gardens.
+Entity: Ladies Home Journal
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/CORPORATION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

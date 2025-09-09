@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art/stage" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: And Justin, in a news release, says, `` Once competitive, Sony now resorts to strong-arm tactics in American courtrooms to carve out and protect niche markets.''
+Entity: Once
+Answer: Yes.
+
+Sentence: `` We'll be playing a lot of defense, especially in the Midwest and Northeast,'' says Jim Buente of the NFIB.
+Entity: We
+Answer: No.
+
+Sentence: Once, in the presence of many Communist Party cadres, a high-ranking official of the State Council's Taiwan Affairs Office asked him this question: `` You've gathered so many Taiwan firms in Dongguan and stirred up such enthusiasm among them-but for what purpose? ``
+Entity: Once
+Answer: Yes.
+
+Sentence: Garry Kasparov went to combat Sunday with the world's most advanced chess computer and kicked it around -- symbolically, anyway -- like an old tin can.
+Entity: Kasparov
+Answer: No.
+
+Sentence: The boy knew nothing about what went on.
+Entity: The boy
+Answer: Yes.
+
+Sentence: Receiving `` extraordinary-level reception `` in Vietnam, according to most Vietnam media, were, Hu in the first and Bush in the second; a break with diplomatic convention when both the general secretary and the chairman accompanied Hu during the troop review; the meeting of Bush, Abe, Roh Moo-hyun and others with Hu was safely held in the hotel where Hu was staying, thereby making it resemble an audience with an emperor.
+Entity: Bush
+Answer: No.
+
+Sentence: And now, brothers and sisters, we want you to know about the grace that God gave the churches in Macedonia.
+Entity: God
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art/stage" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

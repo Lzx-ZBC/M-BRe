@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/natural_disaster" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: In October, net sales of stock funds at Fidelity dropped sharply, Mr. Hines said.
+Entity: dropped
+Answer: Yes.
+
+Sentence: `` It's like an oasis in this room,'' Ms. Foster purrs.
+Entity: Foster
+Answer: No.
+
+Sentence: They gave no + substantive response to any of the allegations until Lanny Davis launched his PR campaign on the Thursday before the broadcast and offered himself as the person from the camp who would merely disparage and attack Freeh rather than deal with his allegations.
+Entity: attack
+Answer: Yes.
+
+Sentence: -LSB- zoun -RSB- -LRB- In the master piece of saite-LRB-saite-RRB -, it is mentioned: - RRB
+Entity: master
+Answer: No.
+
+Sentence: A disheveled, roly-poly son of a Long Island potato farmer, Mr. Lynch is a veteran union organizer who worked on the presidential campaigns of Sen. Edward Kennedy and Mr. Jackson.
+Entity: potato
+Answer: Yes.
+
+Sentence: The person who lifted the cover off his face kissed him-LRB-may God have mercy on him-RRB -.
+Entity: The
+Answer: No.
+
+Sentence: At the behest of pro-choice members of Congress, a four-year reauthorization bill for Title X federal family-planning assistance now contains a $10 million grant for `` development, evaluation and bringing to the marketplace of new improved contraceptive devices, drugs and methods.''
+Entity: federal
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/natural_disaster" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

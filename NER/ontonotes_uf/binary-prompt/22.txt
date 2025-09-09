@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/transit" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But in spite of a wind-driven rainstorm, gridlock never materialized, mainly because the Bay Area Rapid Transit subway system carried 50% more passengers than normal.
+Entity: Bay Area Rapid Transit
+Answer: Yes.
+
+Sentence: Steven Berle tackles that issue in `` After How America Confronted the September 12th Era.''
+Entity: After
+Answer: No.
+
+Sentence: In particular, the eleven national-level development zones jointly developed by China and Singapore, such as the Suzhou Industrial Zone, the Kunshan Economic and Technological Development Zone, and the Zhangjiagang Tariff-free Zone, etc. have always been hotspots for foreign businessmen, where this years foreign investment accounts for half of the whole province.
+Entity: Zone
+Answer: Yes.
+
+Sentence: Then the Lord did what Elisha asked.
+Entity: Lord
+Answer: No.
+
+Sentence: The EPA has announced new rules to cut truck and bus pollution.
+Entity: bus
+Answer: Yes.
+
+Sentence: They have spilled the blood of men now dead.
+Entity: blood
+Answer: No.
+
+Sentence: According to the study by the task force, at present, the four main types of custody for left-behind children include single-parent custody, skip-generation custody, relative custody, and same-generation custody. Among which, single-parent custody had the highest number, accounting for 79.2 percent of the people surveyed.
+Entity: According
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/transit" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

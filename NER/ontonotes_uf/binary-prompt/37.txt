@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/scientific" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: In addition to this type of technical assistance, Taiwan has also assisted with various infrastructure projects.
+Entity: In
+Answer: Yes.
+
+Sentence: I am David Coler, VOA News.
+Entity: VOA News
+Answer: No.
+
+Sentence: In Judah and Israel there were as many people as sand on the seashore.
+Entity: In
+Answer: Yes.
+
+Sentence: That is because Sidhpur has a near-monopoly on the world's supply of flea seed, also known as flea wort or, in Western parlance, psyllium: a tiny, tasteless, obscure seed that, according to early research, may reduce cholesterol levels in the blood.
+Entity: psyllium
+Answer: No.
+
+Sentence: As for the future, health club managers are optimistic about the potential market.
+Entity: As
+Answer: Yes.
+
+Sentence: `` If the 1980s were a decade of consumption, the'90s will be the investment decade,'' Mr. Andersson says.
+Entity: If
+Answer: No.
+
+Sentence: After knowing that Hao Ding passed the university entrance examination, the Longchang Grain and Oil Trade Company of Hangzhou contributed 20,000 yuan to subsidize his going to university and likewise, work units such as the Artificial Limbs Factory, etc. sent him a wheelchair, a pair of walking sticks, etc.
+Entity: After
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/scientific" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/award" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: And you're still with Oscar right
+Entity: Oscar
+Answer: Yes.
+
+Sentence: We should wear faith and love to protect us.
+Entity: protect
+Answer: No.
+
+Sentence: A one-acter by the Pulitzer Prize-winning playwright Marsha Norman is the first presentation in a new series called `` American Playwrights Theater,'' sponsored by General Motors.
+Entity: Pulitzer Prize-winning
+Answer: Yes.
+
+Sentence: the'98 East-West China Cooperation, Investment and Trade Negotiation Conference will be held at the Shaanxi International Exhibition Center from the April 6-10, 1998.
+Entity: China
+Answer: No.
+
+Sentence: As Ko Chen-en, dean of the College of Management at National Taiwan University, puts it: `` You merely have to ask how many Nobel Prize winners Taiwan has-not many-and you know its real ability to follow the US economic model. ``
+Entity: Nobel Prize
+Answer: Yes.
+
+Sentence: It also would create a new individual retirement account that would shield from taxation the appreciation on investments made for a wide variety of purposes, including retirement, medical expenses, first-home purchases and tuition.
+Entity: It
+Answer: No.
+
+Sentence: In addition to servings of chicken, duck, fish and pork, they always have some of the specialties of her husband's home region, Anhui Province in mainland China, including yuanzi meatballs-LRB-minced pork blended with chopped spring onion, ginger, garlic and rice noodles, rolled in cornstarch flour and deep-fried-RRB -.
+Entity: cornstarch
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/award" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/food" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: My sheep listen to my voice.
+Entity: sheep
+Answer: Yes.
+
+Sentence: David took out a stone from his bag.
+Entity: David
+Answer: No.
+
+Sentence: Give the prophet ten loaves of bread, some cakes, and a jar of honey.
+Entity: bread
+Answer: Yes.
+
+Sentence: The electricity charge was RMB.87 a kilowatt hour, and there were various tax incentives, `` explains Wang Jung-tuo, who notes there is still room for negotiation.
+Entity: The
+Answer: No.
+
+Sentence: After 11:30 a.m. or so `` we have them standing and waiting,'' she says, as she whips out orders for hamburgers and the daily special-LRB-grilled roast beef, cheese and jalapeno pepper sandwich on whole wheat, potato salad, baked beans and pudding, plus coffee or iced tea.
+Entity: hamburgers
+Answer: Yes.
+
+Sentence: % uh, well I mean Can we do that?% mm that's something you could do.
+Entity: uh
+Answer: No.
+
+Sentence: In those days, Ovidie was tiny, pierced and dressed in black pyjamas like a junior Maoist. She began by quoting the contemporary thinkers Jean Baudrillard, Georges Bataille and Guy Debord, who, all in different ways, made the case for sexual freedom, and cited the popularity of porn in pre-Revolutionary Paris, before explaining her notion that, because it is based on a universal need, in the right hands, `` porn can set you free''.
+Entity: Georges
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/food" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/company/broadcast" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The network's salaries have always ranged far below industry standards, resulting in a less-experienced work force.
+Entity: network
+Answer: Yes.
+
+Sentence: Look for the left to seethe.
+Entity: Look
+Answer: No.
+
+Sentence: The way Hua Guofeng handled the `` Gang of Four `` was a power struggle.
+Entity: Four
+Answer: Yes.
+
+Sentence: The Sun concluded that Mr. Pierce is only part of the problem -- and a part that's gone.
+Entity: Pierce
+Answer: No.
+
+Sentence: There were no complaints from affiliates of CBS Inc. and Cable News Network, a unit of Turner Broadcasting System Inc.
+Entity: CBS Inc.
+Answer: Yes.
+
+Sentence: However, during the Japanese occupation, as a result of silting, and because the Japanese invested a huge effort in developing the port at Keelung, Tanshui faded in importance, never again to see the likes of its glory days.
+Entity: glory days
+Answer: No.
+
+Sentence: Mr. Eskandarian, who resigned his Della Femina post in September, becomes chairman and chief executive of Arnold.
+Entity: Femina
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/company/broadcast" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

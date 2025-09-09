@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/political_party" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Adolph Reed, Jr., a political scientist at University of Pennsylvania, contributor to The Nation, and Labor Party stalwart, argued that kids are sponges, they soak up what's around them.
+Entity: Labor Party
+Answer: Yes.
+
+Sentence: Boston Co. officials declined to comment on Moody's action or on the unit's financial performance this year -- except to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters' results.
+Entity: published
+Answer: No.
+
+Sentence: As in the formation of the new government, we recruit people according to their talents and do not discriminate on the basis of ethnicity, gender or party affiliation.
+Entity: party
+Answer: Yes.
+
+Sentence: Am @ cnn.com is the address.
+Entity: cnn.com
+Answer: No.
+
+Sentence: I believe there is only one standard: if someone's house was destroyed, the party who destroyed it should restore it to its original condition, without regard to how much money the damage is worth, afraid to spend one red cent; just restore it to the original condition.
+Entity: party
+Answer: Yes.
+
+Sentence: They want to see his successor Vojislav Kostinica extradite Milosevic through the International War Crimes Tribunal in The Hague, but not only is Milosevic still living comfortable in Belgrade, last night he made his first TV appearance in six weeks, giving a pep talk to his supporters.
+Entity: The Hague
+Answer: No.
+
+Sentence: Still ahead on Late Edition an exclusive interview with Iraqi Prime Minister Ibrahim al-Jaafari about his visit with President Bush and the huge challenges still facing his country. Plus my conversations with two of Washington's most influential politicians the Vice President Dick Cheney and Democratic Senator Ted Kennedy.
+Entity: Dick Cheney
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/political_party" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

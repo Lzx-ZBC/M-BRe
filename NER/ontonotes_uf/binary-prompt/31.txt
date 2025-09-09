@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/internet" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It could be that they're not actually involved in finishing up writing one of the opinions.
+Entity: It
+Answer: Yes.
+
+Sentence: In a message read out at the rally, exiled ANC President Oliver Tambo, who ca n't legally be quoted in South Africa, said the country was at a crossroads and that Mr. de Klerk `` may yet earn a place among the peacemakers of our country'' if he chooses a `` path of genuine political settlement.''
+Entity: Oliver Tambo
+Answer: No.
+
+Sentence: It was an awl, then I continued working downward.
+Entity: It
+Answer: Yes.
+
+Sentence: The Communist Party of China should not, under any circumstances, allow any illegal feuds within the party to happen again.
+Entity: China
+Answer: No.
+
+Sentence: In fact, what can represent South Korea's image and power are large corporations like Samsung.
+Entity: In
+Answer: Yes.
+
+Sentence: The bond-equivalent yield on three-month Treasury bills, for example, was quoted late yesterday at 7.72%, compared with 7.16% Friday.
+Entity: Friday
+Answer: No.
+
+Sentence: This year marks the 30th anniversary of China's economic reform, as well as the big day of the Beijing Olympic Games.
+Entity: Beijing
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/internet" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/MUSEUM" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The White House had the perfect case, but Congress blinked before it could go to court.
+Entity: The White House
+Answer: Yes.
+
+Sentence: Georgia-Pacific Corp.'s unsolicited $3.19 billion bid for Great Northern Nekoosa Corp. was hailed by Wall Street despite a cool reception by the target company.
+Entity: Wall Street
+Answer: No.
+
+Sentence: The White House already is talking of Mr. Bush visiting the California earthquake site this weekend.
+Entity: White House
+Answer: Yes.
+
+Sentence: `` Early on in the State Department, we took to calling him the rent-a-colonel, in tribute to his ability to simultaneously milk the antagonistic intelligence services of Cuba and the United States,'' recalls Francis J. McNeil, who, as deputy assistant secretary of state for inter-American affairs, first ran across reports about Mr. Noriega in 1977.
+Entity: United States
+Answer: No.
+
+Sentence: The account had previously been handled by Saatchi & amp; Saatchi Wegener, New York.
+Entity: Saatchi
+Answer: Yes.
+
+Sentence: Mr. Carey will remain a member of the merchant bank's board.
+Entity: Carey
+Answer: No.
+
+Sentence: Chemical and six other banks, along with First Boston, are providing the rest of the $1.6 billion.
+Entity: First Boston
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/MUSEUM" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

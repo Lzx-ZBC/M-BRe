@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FACILITY/ATTRACTION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Judge Robert (`` Maximum Bob'') Potter sentenced Jim Bakker to 45 years in the big house yesterday, while a Beverly Hills judge tucked away Zsa Zsa Gabor for three days, plus 120 hours of work with homeless women.
+Entity: big house
+Answer: Yes.
+
+Sentence: Sales of medium and heavy-duty trucks continue to lag previous-year rates, leading Eaton to expect fourth-quarter net income to fall below year-earlier levels, said Stephen R. Hardis, vice chairman and chief financial and administrative officer.
+Entity: Eaton
+Answer: No.
+
+Sentence: Italian papers speculated the briefcase contained papers either exonerating the Vatican bank from blame in the scandal, or showing that the bank, known as the Istituto per le Opere di Religione, channeled funds to East bloc groups such as Solidarity in Poland.
+Entity: Vatican
+Answer: Yes.
+
+Sentence: It `` may well be'' that theft of business data is `` as serious a strategic threat to national security'' as it is a threat to the survival of victimized U.S. firms, said Michelle Van Cleave, the White House's assistant director for National Security Affairs.
+Entity: assistant director
+Answer: No.
+
+Sentence: Miss Shlaes is editorial features editor of The Wall Street Journal\/Europe.
+Entity: Wall
+Answer: Yes.
+
+Sentence: Some bulk shipping rates have increased `` 3% to 4% in the past few months,'' said Salomon's Mr. Lloyd.
+Entity: Some
+Answer: No.
+
+Sentence: The reporters were victims and some of the victims turned into unofficial reporters.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FACILITY/ATTRACTION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

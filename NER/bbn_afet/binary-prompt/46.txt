@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/RELIGIOUS" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: With membership of the Church of England steadily dwindling, strong-willed vicars are pressing equally strong-willed and often non-religious ringers to attend services.
+Entity: Church
+Answer: Yes.
+
+Sentence: Sheraton and Pan Am said they are assured under the Soviet joint-venture law that they can repatriate profits from their hotel venture.
+Entity: Soviet
+Answer: No.
+
+Sentence: Just five months after Ogilvy Group was swallowed up in an unsolicited takeover, Kenneth Roman, Ogilvy's chairman and chief executive officer, said he is leaving to take a top post at American Express Co.
+Entity: Roman
+Answer: Yes.
+
+Sentence: David Hubel, a Nobel laureate at Harvard, has taken the lead in defending research with animals, as has Dr. Michael DeBakey.
+Entity: Harvard
+Answer: No.
+
+Sentence: But C.J.B. Marshall, vicar of a nearby church, feels the fault is in the stairs from the bell tower that are located next to the altar.
+Entity: church
+Answer: Yes.
+
+Sentence: On Tuesday, the House approved a labor-backed amendment that would require the Transportation Department to reject airline acquisitions if the person seeking to purchase a carrier had run two or more airlines previously that have filed for protection from creditors under Chapter 11 of the federal Bankruptcy Code.
+Entity: Transportation Department
+Answer: No.
+
+Sentence: But early this year, PepsiCo Inc.'s Taco Bell unit and Wendy's International Inc. slashed prices and stepped up promotions, says John Rohs, an analyst for Wertheim Schroder & amp; Co.
+Entity: Schroder
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/RELIGIOUS" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

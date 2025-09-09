@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/PLANT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Revenue rose 21% to 22.61 billion francs from 18.69 billion francs.
+Entity: rose
+Answer: Yes.
+
+Sentence: Affiliated Publications Inc. reversed a year-earlier third quarter net loss.
+Entity: Affiliated Publications
+Answer: No.
+
+Sentence: The company also cited retail trade and consumer demand for new products introduced this year, such as Cherry Merry Muffin and Turtle Tots.
+Entity: Turtle
+Answer: Yes.
+
+Sentence: National Semiconductor Corp. said it settled a four-year-old patent infringement case against Linear Technology Corp. by accepting a $3 million payment from Linear in exchange for granting Linear irrevocable licenses for all products involved.
+Entity: Linear Technology
+Answer: No.
+
+Sentence: Together with two existing plants in the U.S., Furukawa said it will expand its current local monthly production of memory disks to 1.4 million sheets from 800,000.
+Entity: plants
+Answer: Yes.
+
+Sentence: The latest period includes 14 months instead of 12 because Bear Stearns changed to a fiscal year ending in June instead of April.
+Entity: The
+Answer: No.
+
+Sentence: `` A year ago, Moody's also had Shearson under review for possible downgrade,'' he said.
+Entity: Moody
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/PLANT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

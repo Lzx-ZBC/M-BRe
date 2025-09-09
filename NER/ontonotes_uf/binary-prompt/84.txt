@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/product/software" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Japan-U.S. trade relations are bumpy these days, and some Japanese favor decreasing their reliance on U.S. technology in light of the FSX fighter-plane flap, when U.S. officials reversed an earlier decision and refused to share certain crucial fighter-plane technology.
+Entity: FSX
+Answer: Yes.
+
+Sentence: With the popularity of nativist Taiwanese drama, Taiwanese-speaking performers are in demand.
+Entity: Taiwanese
+Answer: No.
+
+Sentence: You find them presenting girls and women in their homes unveiled. One may be an engineer, and another may be something else. Until the appearance of Saudi women on our television channels became a very ordinary thing.
+Entity: find
+Answer: Yes.
+
+Sentence: So I will not make that disaster happen during his lifetime.
+Entity: lifetime
+Answer: No.
+
+Sentence: This novel ` soul mountain', which is just being released in the United States this week is in every possible way a celebration of what freedom means.
+Entity: released
+Answer: Yes.
+
+Sentence: Addressing this threat, world governments agreed through the UN Convention on Biological Diversity to reduce significantly the current rate of biodiversity loss by 2010.
+Entity: Convention
+Answer: No.
+
+Sentence: WHEN HURRICANE Hugo careened through the Caribbean and the Atlantic coast states, it downed electric and telephone lines, shot coconuts through cottage rooftops, shattered windows and uprooted thousands of lives.
+Entity: Atlantic
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/product/software" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/CONTACT_INFO" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It has long been rumored that Ocean Drilling would sell the unit to concentrate on its core oil and gas business.
+Entity: It
+Answer: Yes.
+
+Sentence: In a well-known detective-story involving church bells, English novelist Dorothy L. Sayers described ringing as a `` passion { that } finds its satisfaction in mathematical completeness and mechanical perfection.''
+Entity: Sayers
+Answer: No.
+
+Sentence: It would n't discuss a price.
+Entity: It
+Answer: Yes.
+
+Sentence: The monthly `` trade deficit'' figure is limited to traditional merchandise trade: manufactured goods and raw materials.
+Entity: The monthly
+Answer: No.
+
+Sentence: Where they disagree is on the subject of U.S. direct investment in Japan.
+Entity: Where
+Answer: Yes.
+
+Sentence: Regarding the Oct. 3 letter to the editor from Rep. Tom Lantos, chairman of the House Subcommittee on Employment and Housing, alleging:
+Entity: House
+Answer: No.
+
+Sentence: Separately, EG & amp; G said it sold most of its Mason Research Institute subsidiary to Transgenic Sciences Inc., a closely held biotechnology company based in Worcester, Mass.
+Entity: EG
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/CONTACT_INFO" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

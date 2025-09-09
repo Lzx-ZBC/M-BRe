@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/SUBSTANCE/DRUG" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The plunge followed a drop of $56.875 Monday, amid indications the takeover may take weeks to be revived.
+Entity: revived
+Answer: Yes.
+
+Sentence: After the earthquake two weeks ago, brokers say companies scrambled to replace reinsurance coverages again and Lloyd's syndicates turned to the London market excess lines for protection of their own.
+Entity: After
+Answer: No.
+
+Sentence: U.S. and Soviet officials hailed the joint project as a new indication of the further thaw in U.S.-Soviet relations.
+Entity: joint
+Answer: Yes.
+
+Sentence: Oil production from Australia's Bass Strait fields will be raised by 11,000 barrels a day to about 321,000 barrels with the launch of the Whiting field, the first of five small fields scheduled to be brought into production before the end of 1990.
+Entity: Oil production
+Answer: No.
+
+Sentence: We have people in high place still lying through their teeth about Iran-Contra, and that apparently is n't going to change.
+Entity: high
+Answer: Yes.
+
+Sentence: J.P. Morgan & amp; Co. swung to a loss in the third quarter, while NCNB Corp. reported net income more than doubled, and Security Pacific Corp. net rose 10%.
+Entity: Morgan
+Answer: No.
+
+Sentence: Although a GOP president may limit local benefits to the voter's particular district\/state, such a president is also likely to be more effective at preventing other districts\/states and their legislators from bringing home the local benefits.
+Entity: legislators
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/SUBSTANCE/DRUG" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

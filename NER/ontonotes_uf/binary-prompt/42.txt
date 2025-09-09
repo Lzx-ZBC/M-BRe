@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/coach" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: For the survey, Peter D. Hart Research Associates asked some 2,000 consumers, including Mrs. Lombardi, whether they usually buy one brand of a certain type of product or have no brand loyalty.
+Entity: Lombardi
+Answer: Yes.
+
+Sentence: Field offices at New Orleans; Houston; Denver; Midland, Tex.; Bakersfield, Calif.; Oklahoma City; and Liberal, Kan., will be maintained.
+Entity: Houston
+Answer: No.
+
+Sentence: Max Gitter, another GAF defense attorney, said yesterday, `` As we go in for the third time, Yogi Berra's famous line is apt: ` It's deja vu all over again.'''
+Entity: Yogi Berra
+Answer: Yes.
+
+Sentence: Gerry Ritterman, president of New York-based Network Publishing Corp., earlier this year sold his Soap Opera Digest magazine to Rupert Murdoch's News Corp.
+Entity: New York-based
+Answer: No.
+
+Sentence: Bias's coach, Lefty Driesell, ordered the room in which Bias died to be cleaned before the police could arrive-LRB-the order was n't carried out-RRB -, and the school's athletics director issued false information about the academic standing of Bias and other players.
+Entity: Lefty Driesell
+Answer: Yes.
+
+Sentence: Have never drummed?
+Entity: drummed
+Answer: No.
+
+Sentence: -LSB- fishingdays -RSB- The registration fees are sky high, and together with air and accommodation, over USD $4,000 is payable in total
+Entity: registration
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/coach" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/athlete" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The post of chief executive has been vacant since July when Terry Pryce, 55, left the company.
+Entity: Terry
+Answer: Yes.
+
+Sentence: Currently, the average scale of Taiwanese capital corporations investing in Tianjin has already reached 25 billion US dollars, and high-tech corporations increased significantly.
+Entity: high-tech
+Answer: No.
+
+Sentence: `` We're willing to negotiate,'' says Dennis Gillespie, executive vice president of marketing.
+Entity: Gillespie
+Answer: Yes.
+
+Sentence: Mr. Barak told the Arabic language Al-Jazeera TV that Israel will punish those who carried out the attack.
+Entity: Barak
+Answer: No.
+
+Sentence: His name, Jorge Ramos, the Tom Brokaw of Spanish language news.
+Entity: His
+Answer: Yes.
+
+Sentence: `` I'd love it if my daughter had something else to do here,'' says Ms. Cokely, watching seven-year-old Kristin on the water slide at the Strip's Wet'n' Wild water park.
+Entity: Wet
+Answer: No.
+
+Sentence: This book of mine, uh, on the title page I write, I wrote this for the people of the Tangshan Earthquake Monitoring Network; I respectfully represent the 240,000 dead.
+Entity: This
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/athlete" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

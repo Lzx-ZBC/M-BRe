@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/celestial" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The focuses of the debate are: the requirement of the State Administration of Radio Film and Television that various places should broadcast -LSB- bingladen -RSB-: TV dramas revolving around the main theme is a restriction on the freedom of radio and television, as well as interference with public entertainment orientation using the administrative power; what on earth are the subjects -LSB- bingladen -RSB-: that belong to the main theme, and what the main theme should represent.
+Entity: earth
+Answer: Yes.
+
+Sentence: Taiwanese agricultural specialists stationed in Burkina Faso have converted 1,000 hectares of desert to arable land, while Taiwanese specialists sent to Gambia have successfully transplanted tomatoes, green beans, okra, and various leafy vegetables from Taiwan and raised them on Gambian soil.
+Entity: green beans
+Answer: No.
+
+Sentence: a real confidence builder to look down from the shaky crux and see that.
+Entity: crux
+Answer: Yes.
+
+Sentence: The Treasury plans to raise $175 million in new cash Thursday by selling about $9.75 billion of 52-week bills and redeeming $9.58 billion of maturing bills.
+Entity: The Treasury
+Answer: No.
+
+Sentence: No one can gather this water back from the ground.
+Entity: ground
+Answer: Yes.
+
+Sentence: The announcement got wide exposure in the Japanese media, and even moved some pharmaceutical stocks yesterday.
+Entity: The
+Answer: No.
+
+Sentence: The lonely fishing boats are waiting for the Tanshui-Pali ferry to pass by and say hello.
+Entity: fishing boats
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/celestial" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/stock_exchange" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Share prices on the Frankfurt stock exchange closed narrowly mixed in quiet dealings after recovering most of their early losses.
+Entity: Frankfurt stock exchange
+Answer: Yes.
+
+Sentence: It sounds like all of this will be too quick, and it seems underlying all this is there could be an absence of dental records.
+Entity: sounds
+Answer: No.
+
+Sentence: Unlike the New York Stock Exchange, where buyers and sellers are quickly matched, the junk market, where risky corporate loans are traded, is sometimes closed for repairs.
+Entity: New York Stock Exchange
+Answer: Yes.
+
+Sentence: So we go to physical therapy once a week,
+Entity: physical therapy
+Answer: No.
+
+Sentence: On Friday, when only a dozen common stocks hit 52-week highs on the New York Stock Exchange, five were gold-mining issues, and another four were utilities.
+Entity: New York Stock Exchange
+Answer: Yes.
+
+Sentence: Removed from office were George Pratt, Robert E. Davis, Norman Gray, John Virtue, corporate secretary, and Barrett B. Weekes, chairman, president and chief executive officer.
+Entity: Davis
+Answer: No.
+
+Sentence: According to reports, in recent days the city of Changsha has used 24 karat gold to re-case a 7.1 m tall statue of Mao Zedong and, to form a complete set, also has constructed a four-thousand-square-meter Gold Statue Square to provide people a place to commemorate and relax.
+Entity: Changsha
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/stock_exchange" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/CONTACT_INFO/PHONE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: RU-486 is being administered in France only under strict supervision in the presence of a doctor.
+Entity: RU-486
+Answer: Yes.
+
+Sentence: The U.S. is in the habit of arranging peace settlements and then washing its hands over the tragic results.
+Entity: The
+Answer: No.
+
+Sentence: The U.S. is in the habit of arranging peace settlements and then washing its hands over the tragic results.
+Entity: The
+Answer: Yes.
+
+Sentence: So Brooks gave the dirty work to Coin Wrap Inc., which came up with an unusual solution.
+Entity: Brooks
+Answer: No.
+
+Sentence: So Brooks gave the dirty work to Coin Wrap Inc., which came up with an unusual solution.
+Entity: Brooks
+Answer: Yes.
+
+Sentence: When they reapportion their districts after the 1990 census, every other municipality and state in the country will face this issue.
+Entity: municipality
+Answer: No.
+
+Sentence: And for six years, NBC, ABC and CBS have negotiated with Hollywood studios in a futile attempt to change that.
+Entity: ABC
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/CONTACT_INFO/PHONE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

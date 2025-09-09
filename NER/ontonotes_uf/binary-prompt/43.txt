@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/doctor" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: A Word of Truth from Mahathir: `` The Execution of Saddam is Public Murder. ``
+Entity: Mahathir
+Answer: Yes.
+
+Sentence: The saga of the Fourth Nuclear Power Plant began in 1980, when TaiPower first proposed the project.
+Entity: The
+Answer: No.
+
+Sentence: David Garth, Mayor Koch's longtime media adviser, says of Mr. Dinkins, `` He really is the personification of the patronage system.
+Entity: Koch
+Answer: Yes.
+
+Sentence: To further load the stakes, Mr. Lane dreamed up a highly improbable romance for the Artist, with a young woman who owns her own children's shop and who lives in an expensive high-rise apartment building.
+Entity: To
+Answer: No.
+
+Sentence: St. Paul Medical Center, also in Dallas, sees only a `` minimal erosion'' of support staff due to AIDS.
+Entity: Paul
+Answer: Yes.
+
+Sentence: There has been more gunfire in the Palestinian territories with injuries to Israelis and Palestinians.
+Entity: Palestinians
+Answer: No.
+
+Sentence: If you plunked down the amount of money required for the feature set of an iPhone, 850 for the Zulu should be a non-issue to you.
+Entity: If
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/doctor" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

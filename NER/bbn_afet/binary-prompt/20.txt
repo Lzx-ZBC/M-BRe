@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/WORK_OF_ART/PLAY" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Cast as Violetta Valery in a new production of Verdi's `` La Traviata,'' Ms. Gruberova last week did many things nicely and others not so well.
+Entity: Traviata
+Answer: Yes.
+
+Sentence: `` There's too much capacity,'' contended Charles Bradford, an analyst with Merrill Lynch Capital Markets.
+Entity: Bradford
+Answer: No.
+
+Sentence: But as you may know, things are not going well for Violetta.
+Entity: Violetta
+Answer: Yes.
+
+Sentence: Under the proposal by Equitec, a financially troubled real-estate syndicator, New York-based Hallwood Group Inc. would replace Equitec as the newly formed master limited partnership's general partner and manager.
+Entity: manager
+Answer: No.
+
+Sentence: Paul Rheingold, a New York lawyer who represents DES victims, said that before the New York ruling, only the states of Washington and Wisconsin had followed the California decision.
+Entity: Rheingold
+Answer: Yes.
+
+Sentence: At 555 W. 57th St. in Manhattan, one floor below the offices of `` 60 Minutes,'' the most successful prime-time news program ever, actors wait in the reception area to audition for `` Saturday Night With Connie Chung.''
+Entity: Manhattan
+Answer: No.
+
+Sentence: He also declined to comment on the name that Coopers would use in England if Deloitte UK won its litigation to keep its name.
+Entity: England
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/WORK_OF_ART/PLAY" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

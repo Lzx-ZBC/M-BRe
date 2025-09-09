@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/artist" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: -LSB- SEM -RSB-: It now proves that other players of the Rockets are not weak, in which case it is not necessary to let Yao Ming play too much.
+Entity: Yao Ming
+Answer: Yes.
+
+Sentence: If we follow this path, it would be difficult to activate the states of the Cooperation Council.
+Entity: If
+Answer: No.
+
+Sentence: He talked to Al Gore on the phone from Belfast.
+Entity: Al Gore
+Answer: Yes.
+
+Sentence: The existence of the guidelines has become known since President Bush disclosed them privately to seven Republican senators at a White House meeting last Monday.
+Entity: Monday
+Answer: No.
+
+Sentence: The latest news from the Ministry of Foreign Economy and Trade says that, up through the end of November of this year, China approved establishing a total of the 302,464 foreign investment enterprises.
+Entity: The
+Answer: Yes.
+
+Sentence: Capital Cities/ABC Inc., CBS Inc. and General Electric Co.'s National Broadcasting Co. unit are expected to announce soon a joint campaign to raise awareness about hunger.
+Entity: General Electric
+Answer: No.
+
+Sentence: And the Scriptures say, `` You people of other nations should be happy together with God's people.''
+Entity: Scriptures
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/artist" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

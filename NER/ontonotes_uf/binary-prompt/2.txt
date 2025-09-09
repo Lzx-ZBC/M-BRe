@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Spokesman P.J. Crowley said the administration has n't ruled out the possibility of sending a senior US official to the Mid East to try to arrange a meeting of Israeli and Palestinian leaders.
+Entity: Palestinian
+Answer: Yes.
+
+Sentence: She noted that, after the return from Eid Al Adha vacation, each elected female student will present her own official plan and every nominated female student from among the 16 female nominees experienced for over two weeks, the period of the election phases, an election atmosphere for the first time.
+Entity: She
+Answer: No.
+
+Sentence: There are reports that he could meet separately with Israeli Prime Minister Ehud Barak and Palestinian leader Yasser Arafat, then decide if there was reason for a three way summit, but the White House is calling talks of such a summit premature.
+Entity: summit
+Answer: Yes.
+
+Sentence: `` The report indicated that the basic governance system does not recognize the right to peaceful assembly, considering that the Saudi regime puts all kinds of difficulties in the way of the religious, cultural and educational activities of the Shiites in the Kingdom. ``
+Entity: The
+Answer: No.
+
+Sentence: In a memorandum describing the guidelines, Assistant Attorney General Edward Dennis Jr. said that government efforts to freeze defendants' assets pending racketeering prosecutions `` have been the subject of considerable criticism in the press.''
+Entity: government
+Answer: Yes.
+
+Sentence: Classmates say Clebold and Harris who brought terror to Littleton Colorado in nineteen ninety-eight and Jeff Weiss the Red Lake Minnesota teen who killed nine people and wounded seven before fatally shooting himself all wore dark trenchcoats and were fans of Marilyn Manson.
+Entity: ninety-eight
+Answer: No.
+
+Sentence: We faced um the outcome of an ideology of hatred throughout the Middle East that had to be dealt with.
+Entity: We
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

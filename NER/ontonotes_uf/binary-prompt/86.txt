@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/artist/actor" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: That's because they only drop `` mere names,'' says Mr. Churchill.
+Entity: Churchill
+Answer: Yes.
+
+Sentence: All the men with him did the same thing.
+Entity: All
+Answer: No.
+
+Sentence: The T84 tranny, which is notoriously weak, piled up, and jammed so suddenly that the momentum of the vehicle sheared off the front U-joint. & quot;
+Entity: The
+Answer: Yes.
+
+Sentence: I'm a hemophiliac, and if you prick me, I'll bleed all over the place. & quot;
+Entity: hemophiliac
+Answer: No.
+
+Sentence: According to that Vanity Fair article, Jacko and Uri Geller met through `` that other fellow devotee of children's charities Mohamed Fayed, the chairman of Harrods in London, who believes that the C.I.A. and Prince Philip had Princess Diana and his son, Dodi, killed.''
+Entity: article
+Answer: Yes.
+
+Sentence: Wang Chuang-wei was born in Hebei Province in 1909, into an educated family-his father Wang Yi-pin was the last xiucai scholar-official of the Qing dynasty-LRB-1644-1911-RRB -.
+Entity: father
+Answer: No.
+
+Sentence: The captain of the Temple guards and the leading priests heard this.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/artist/actor" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

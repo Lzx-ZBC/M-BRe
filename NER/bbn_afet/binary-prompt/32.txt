@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FAC/ATTRACTION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` We're in the process of discussing an amended plan with the creditors and anticipate filing that amended plan shortly,'' Mr. Lorenzo told reporters.
+Entity: We
+Answer: Yes.
+
+Sentence: The Big Board's liaison with the Chicago Board of Trade has improved; it will be interesting to learn if `` circuit breakers'' prove to be a good idea.
+Entity: Board
+Answer: No.
+
+Sentence: The Big Board's liaison with the Chicago Board of Trade has improved; it will be interesting to learn if `` circuit breakers'' prove to be a good idea.
+Entity: Board
+Answer: Yes.
+
+Sentence: He is taken aback in an interview when asked whether, as mayor, he plans on reforming the political `` fiefdoms'' that perpetuate the monumental ineffectiveness of New York's school system.
+Entity: mayor
+Answer: No.
+
+Sentence: He is taken aback in an interview when asked whether, as mayor, he plans on reforming the political `` fiefdoms'' that perpetuate the monumental ineffectiveness of New York's school system.
+Entity: mayor
+Answer: Yes.
+
+Sentence: The daily newsletter, which is n't widely available yet, will have a base cost of $2,000 a year and provides full text of relevant articles under license agreements with Reuters, McGraw Hill, United Press International, two press release news wires and Japan's Kyodo news service.
+Entity: articles
+Answer: No.
+
+Sentence: There is also speculation that Mr. Newhouse could bring in a powerhouse businessman or another Newhouse family member to run the business side, in combination with a publishing executive like Robert Gottlieb, who left Random House's Alfred A. Knopf to run the New Yorker, also owned by the Newhouse family.
+Entity: Newhouse
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FAC/ATTRACTION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/religious_leader" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: He invited Barnabas and Saul to come visit him, because he wanted to hear the message of God.
+Entity: Saul
+Answer: Yes.
+
+Sentence: To get the necessary growth, adds Murray Ruffel, a marketing official at the Financial Programs mutual-fund group, `` you need to go to the stock market.''
+Entity: Murray
+Answer: No.
+
+Sentence: One night, Peter, bound with two chains, was sleeping between two of the soldiers.
+Entity: Peter
+Answer: Yes.
+
+Sentence: LRB-This is how I tend to think of Ponchatoula's Hosanna Church.-RRB
+Entity: Ponchatoula
+Answer: No.
+
+Sentence: According to University of Toronto researcher David Westaway, another team of scientists last year took the first step toward an Alzheimer's vaccine.
+Entity: David
+Answer: Yes.
+
+Sentence: Where are the words of truth?
+Entity: Where
+Answer: No.
+
+Sentence: President Clinton departs Monday for Ireland, Northern Ireland and England.
+Entity: Clinton
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/religious_leader" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

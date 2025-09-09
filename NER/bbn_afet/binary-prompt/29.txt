@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ANIMAL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The judge said Givens may deduct his $30,180 of losses from horse breeding, but rejected the $12,275 in deductions from the cattle operation.
+Entity: cattle
+Answer: Yes.
+
+Sentence: That should help to inspire confidence, Mr. Gilmore says.
+Entity: confidence
+Answer: No.
+
+Sentence: The new notes will bear interest at 5.5% through July 31, 1991, and thereafter at 10%.
+Entity: bear
+Answer: Yes.
+
+Sentence: Among other software issues, Autodesk jumped 1 to 42, Lotus Development was unchanged at 32, Novell jumped 7\/8 to 30, Ashton-Tate gained 1\/4 to 10, and Oracle Systems rose 3\/4 to 25.
+Entity: Lotus Development
+Answer: No.
+
+Sentence: See, the other rule of thumb about ballooning is that you ca n't steer.
+Entity: steer
+Answer: Yes.
+
+Sentence: Among utilities, Drexel currently favors Entergy Corp. and General Public Utilities Corp.
+Entity: General Public Utilities
+Answer: No.
+
+Sentence: Merrill Lynch added 1 to 28, PaineWebber rose 3\/4 to 18 and Bear Stearns rose 3\/8 to 14.
+Entity: Merrill Lynch
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ANIMAL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

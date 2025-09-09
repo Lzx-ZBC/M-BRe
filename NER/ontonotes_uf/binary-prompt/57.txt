@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/restaurant" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: A Kentucky Fried Chicken spokesman, however, disputed the notion that the delivery service experienced problems in some markets where testing has been discontinued.
+Entity: Kentucky Fried Chicken
+Answer: Yes.
+
+Sentence: and now another earthquake.
+Entity: earthquake
+Answer: No.
+
+Sentence: Taco Bell is appealing.
+Entity: Taco Bell
+Answer: Yes.
+
+Sentence: These weapons are for defending ourselves against our enemy whom you receive with hugs and so on.. While those who you say are strong are strong indeed, but not with Peres.
+Entity: These
+Answer: No.
+
+Sentence: One writer, signing his letter as `` Red-blooded, balanced male,'' remarked on the `` frequency of women fainting in peals,'' and suggested that they `` settle back into their traditional role of making tea at meetings.''
+Entity: suggested
+Answer: Yes.
+
+Sentence: If the Supreme Court holds in Medtronic's favor, the decision will have billion-dollar consequences for the manufacturers of medical devices, color and food additives and all other non-drug products that required Food & Drug Administration approval.
+Entity: Medtronic
+Answer: No.
+
+Sentence: Andrew Carey has the story of three firefighters who were first on the scene at one of the bombings.
+Entity: bombings
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/restaurant" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

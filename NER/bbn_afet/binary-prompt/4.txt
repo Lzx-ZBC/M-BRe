@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/DISEASE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: When the fertilized cells divide to eight cells, a single cell from each embryo can be tested for genetic defects.
+Entity: genetic defects
+Answer: Yes.
+
+Sentence: Mr. Boren himself did n't discover the warn-your-enemy nuance until Mr. Bush told him privately at the White House last week.
+Entity: House
+Answer: No.
+
+Sentence: Although other resignations may follow, it's still not clear to what extent the change in party personnel will alter the government's resistance to fundamental change.
+Entity: clear
+Answer: Yes.
+
+Sentence: Alarmed, state and federal authorities are trying to devise ways to certify and regulate planners.
+Entity: federal
+Answer: No.
+
+Sentence: The characters will also be featured in a new public service effort for the United Way.
+Entity: featured
+Answer: Yes.
+
+Sentence: European Investment Bank (agency) -- 200 billion lire of 12% bonds due Nov. 16, 1995, priced at 101 to yield 12% less full fees, via lead manager Banco Commercial Italiana.
+Entity: full
+Answer: No.
+
+Sentence: Writing in the 1960s Ms. Carson suggested that the human race could be eliminated in 20 years, and Mr. Wald suggested that life on earth might end by 1985.
+Entity: Carson
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/DISEASE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

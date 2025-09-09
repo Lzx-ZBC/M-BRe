@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The league is reviewing security at all ballparks to crack down on spectator violence.
+Entity: crack
+Answer: Yes.
+
+Sentence: This same tendency toward openness impressed a group of visiting U.S. congressmen this spring.
+Entity: U.S. congressmen
+Answer: No.
+
+Sentence: In an apparent warning to currency traders who have lately been selling the British currency, he stated that the exchange rates will have a `` major role in the assessment of monetary conditions.''
+Entity: stated
+Answer: Yes.
+
+Sentence: The only reason this handsome fellow has lingered so long is probably due to the fact that he does n't like other male dogs and he plays a little too rough with the ladies-LRB-he herds them around, which tends to scare most of them-RRB -.
+Entity: The
+Answer: No.
+
+Sentence: LRB-2-RRB-2,000 - year-old Sumerian cities torn apart and plundered: It is the death of history, by Robert Fisk From: Paul de Burgh-Day & lt; pdebu...
+Entity: It
+Answer: Yes.
+
+Sentence: But the real levers on Kim Jong-Il are the Chinese and the South Koreans.
+Entity: Kim Jong-Il
+Answer: No.
+
+Sentence: Zhang Rongkun, the main player in the Shanghai social insurance case, with a `` new `` company that was just registered and claimed to have 500 million in capital, was nevertheless able to acquire the 99.35% stake in Shanghai Luqiao held by Shanghai Chengtou at a price of 3.2 billion yuan.
+Entity: Shanghai
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/geography/body_of_water" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` I wonder what Walter Cronkite will think of the Sony/Columbia Broadcast System Trinitron Evening News with Dan Rather broadcast exclusively from Tokyo,'' wrote J.B. Holston, an NBC vice president, in a commentary in last week's issue of Broadcasting magazine.
+Entity: Holston
+Answer: Yes.
+
+Sentence: The supply of experienced civil engineers, though, is tighter.
+Entity: civil engineers
+Answer: No.
+
+Sentence: Uh I've been for more funding for stem cell research.
+Entity: Uh
+Answer: Yes.
+
+Sentence: In the Securities and Exchange Commission filings, the group has said it may seek control of Rally's.
+Entity: Commission
+Answer: No.
+
+Sentence: Development of the long-promised Tapeng Bay Scenic Area is due to begin, and in 2003 the 2nd Southern Freeway will open.
+Entity: Bay
+Answer: Yes.
+
+Sentence: The Prime Minister has said so many things lately that none of them stood the test of the day, not of the week, that we should be very careful about our assessment of his commitments.
+Entity: The
+Answer: No.
+
+Sentence: -LSB- jilian -RSB- The response on the Internet has been a dispute rarely seen in the forums.
+Entity: dispute
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/geography/body_of_water" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

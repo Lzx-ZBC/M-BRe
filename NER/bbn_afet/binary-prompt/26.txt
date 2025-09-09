@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/PRODUCT/WEAPON" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The idea behind the Egg King is pretty simple: put the eggs into a cylinder that contains perforated baskets, spin them at a high speed to break the shells and strain the edible part through the baskets.
+Entity: shells
+Answer: Yes.
+
+Sentence: Dissident UAW members have used the Fiero plant as a symbol of labor-management cooperation's failure.
+Entity: Fiero
+Answer: No.
+
+Sentence: Accepted bids ranged from 8% to 8.019%.
+Entity: ranged
+Answer: Yes.
+
+Sentence: In remarks at a White House ceremony marking Polish Heritage Month, Mr. Bush announced that Agriculture Secretary Clayton Yeutter, Commerce Secretary Robert Mosbacher and Labor Secretary Elizabeth Dole will lead the U.S. group.
+Entity: Polish
+Answer: No.
+
+Sentence: Back then, Mr. Pinter was not only the angry young British playwright, but also the first to use silences and sentence fragments and menacing stares, almost to the exclusion of what we previously understood to be theatrical dialogue.
+Entity: fragments
+Answer: Yes.
+
+Sentence: Kentucky Fried Chicken also is testing home-delivery of chicken, which could be a hit with stay-at-home diners.
+Entity: Chicken
+Answer: No.
+
+Sentence: Perhaps Mrs. Thatcher understands better than those distressed at her style that ultimately history and Britain's voters will decide who is right about Europe, sanctioning South Africa or running Britain's economy.
+Entity: Thatcher
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/PRODUCT/WEAPON" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

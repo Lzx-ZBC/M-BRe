@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/currency" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The amount of contracted foreign investment utilized and actually utilized foreign investment was 205 million US dollars and 311 million US dollars respectively, up by 14.53% and 61.98% respectively compared with the same period last year.
+Entity: US dollars
+Answer: Yes.
+
+Sentence: But James Madison refuted that argument in one of the most celebrated political treatises ever written, No. 10 of the Federalist Papers.
+Entity: Federalist Papers
+Answer: No.
+
+Sentence: Although management led a leveraged buy-out of R.H. Macy in July 1986, the company still makes financial filings because of its publicly traded debt.
+Entity: financial
+Answer: Yes.
+
+Sentence: He plans to attach the embroidery to the backs of mink coats and jackets.
+Entity: jackets
+Answer: No.
+
+Sentence: The only choice was the Antung Street Studio, where the monthly fee was just 20 yuan.
+Entity: yuan
+Answer: Yes.
+
+Sentence: Naturally, one of the best ways to guarantee visibility for your due-process system is for top management to support it.
+Entity: support
+Answer: No.
+
+Sentence: Even if Jonson ghosted for Heminge and Condell-LRB-a scenario nowhere near as accepted as you try to put on-RRB -, what would that have to do with anything?
+Entity: Even
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/currency" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

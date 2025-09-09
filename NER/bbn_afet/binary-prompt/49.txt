@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FAC/HIGHWAY_STREET" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Verbatim quotation, the judge believed, was justified in order to prove points the author had asserted about Mr. Hubbard -- mendacity, bigotry, paranoia and other unlovely traits that could not be persuasively demonstrated without use of Mr. Hubbard's own words.
+Entity: judge
+Answer: Yes.
+
+Sentence: The rigid Ivy League customer, Brooks Brothers' bread and butter, meanwhile is becoming extinct.
+Entity: Brooks Brothers
+Answer: No.
+
+Sentence: The rigid Ivy League customer, Brooks Brothers' bread and butter, meanwhile is becoming extinct.
+Entity: Brooks Brothers
+Answer: Yes.
+
+Sentence: The group is led by Jay Shidler, chief executive officer of Shidler Investment Corp. in Honolulu, and A. Boyd Simpson, chief executive of the Atlanta-based Simpson Organization Inc.
+Entity: chief executive
+Answer: No.
+
+Sentence: The group is led by Jay Shidler, chief executive officer of Shidler Investment Corp. in Honolulu, and A. Boyd Simpson, chief executive of the Atlanta-based Simpson Organization Inc.
+Entity: chief executive
+Answer: Yes.
+
+Sentence: The amount Bally and Mr. Trump will pay to settle the class-action suit pales in comparison to the $45 million Walt Disney Co. and Saul Steinberg's Reliance Group Holdings Inc. agreed to pay to settle a similar suit in July.
+Entity: Walt Disney Co.
+Answer: No.
+
+Sentence: Pioneer surged 450 yen ($3.16) to 6,050 yen ($42.60).
+Entity: Pioneer
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FAC/HIGHWAY_STREET" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

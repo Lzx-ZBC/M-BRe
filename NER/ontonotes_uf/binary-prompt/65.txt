@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art/broadcast" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The Bill of Rights was a political document written to satisfy the states with anti-Federalist tendencies that the federal government would not intrude on the states' rights to decide what each states' people could do.
+Entity: The Bill
+Answer: Yes.
+
+Sentence: However, the disclosure of the guidelines, first reported last night by NBC News, is already being interpreted on Capitol Hill as an unfair effort to pressure Congress.
+Entity: night
+Answer: No.
+
+Sentence: Absolutely.
+Entity: Absolutely
+Answer: Yes.
+
+Sentence: Taiwan's most notable contribution to Gambia's infrastructure is the main terminal at the airport.
+Entity: Gambia
+Answer: No.
+
+Sentence: Where desire and eroticism prevailed in Un Chien Andalou, religion took center stage in Simon del Desierto-LRB-Simon of the Desert-RRB -, produced in Mexico in 1965.
+Entity: del
+Answer: Yes.
+
+Sentence: It is clear he has two of the things you need to be a photojournalist.
+Entity: clear
+Answer: No.
+
+Sentence: Anne Burford, the former EPA chief who resigned under fire in 1983 during a flap with Congress, was kayoed in the confrontation, even though she was never charged with official wrondgoing.
+Entity: official
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art/broadcast" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

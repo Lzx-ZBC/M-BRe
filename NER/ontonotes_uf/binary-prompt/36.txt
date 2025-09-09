@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/religion" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Then they will become strong in the faith, and they will stop paying attention to the stories told by those Jews.
+Entity: Jews
+Answer: Yes.
+
+Sentence: C.S. Richardson, Atco's senior vice president, finance, said its 50.1% - owned Canadian Utilities Ltd. unit is reviewing cogeneration projects in eastern Canada, and conventional electric power generating plants elsewhere, including Britain, where the British government plans to allow limited competition in electrical generation from private-sector suppliers as part of its privatization program.
+Entity: senior vice president
+Answer: No.
+
+Sentence: He was the one who kept the moneybag for the group of followers.
+Entity: followers
+Answer: Yes.
+
+Sentence: That is why David has not come to the king's table.''
+Entity: David
+Answer: No.
+
+Sentence: Do I go to um uh the factory floor?
+Entity: Do
+Answer: Yes.
+
+Sentence: For details, please see attachments `` Crimes Treated Fairly, Auditing Becomes the Measure Of Money-Laundering, `` `` It is So Difficult to Legally Dismiss the Corrupt and Evil Community Association Director even at the Joint Request of Over 1600 Residents, `` `` The Reporter Bleeds and Tears, While the Reported Committing All Crimes Still at Large. ``
+Entity: Director
+Answer: No.
+
+Sentence: -LSB- jilian -RSB- To speak of China's strategic nuclear strike capacity: with the successful test-firing of a submarine-based ICBM, and General Zhu Chenghu's revelation of China's strategic nuclear strike capacity sufficient to `` bury hundreds of American cities even at the same time as all Chinese cities east of Xi'an were being destroyed, `` the `` intelligence `` that the `` highly effective `` US intelligence departments have been assuredly apprising Japan and Taiwanese separatists of `` for decades without changing `` that `` China has only 20 ICBMs capable of hitting the US, `` has become a `` joke `` like `` Iraq's weapons of mass destruction, `` along with the mighty image of `` a USA impervious to China's nuclear threat and capable of protecting Taiwanese separatists and Japanese who threaten China's core interests. ``
+Entity: destroyed
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/religion" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

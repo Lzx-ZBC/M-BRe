@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/accident" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Judges at the Flight 103 Lockerbie trial are expected to rule Thursday if a diary belonging to one of the accused can be used as evidence.
+Entity: Flight 103
+Answer: Yes.
+
+Sentence: we'll get to that subject uh on another occasion the overall strength of the US military.
+Entity: uh
+Answer: No.
+
+Sentence: The court in Camp Zeist Holland convicted one of the two Libyan defendants of planting the suitcase bomb which brought down Pan Am Flight 103 over the Scottish town of Lockerbie.
+Entity: Lockerbie
+Answer: Yes.
+
+Sentence: While honing his skills working as an A.D., Bunuel also began contributing articles to various literary cinema periodicals, most notably La Gaceta Hispanoamericana.
+Entity: cinema
+Answer: No.
+
+Sentence: Steven Su says that `` we will always have competition from the traditional media like China Times and United Daily News, `` because after all, 104 only works through the Internet.
+Entity: Su
+Answer: Yes.
+
+Sentence: British government bonds, or gilts, ended moderately lower as equities there recovered from Tuesday's drop.
+Entity: Tuesday
+Answer: No.
+
+Sentence: But last February, a federal appeals court in New Orleans upheld a damage award against General Dynamics, rejecting the company's use of the government contractor defense.
+Entity: government
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/accident" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

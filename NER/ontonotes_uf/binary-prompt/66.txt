@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art/film" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: You know he had the Hall of Fame and the three thousand hits and the endorsements and uh really the respect and admiration of the entire country.
+Entity: Fame
+Answer: Yes.
+
+Sentence: The next day, an evil spirit from God took control of Saul and he went wild in his house.
+Entity: The
+Answer: No.
+
+Sentence: Meanwhile, Mr. Gillett risks losing his entire equity investment of about $100 million in SCI TV if the company ca n't be restructured.
+Entity: TV
+Answer: Yes.
+
+Sentence: To correctly understand the relationship between economic development, political stability, social harmony and national security, to diligently promote all countries, regions and the whole world to travel on the road of peaceful development, to jointly discuss east Asian economic cooperation in the 21st century and forecasting the future development of eastern Asia are subjects being discussed at this informal meeting of heads of state in eastern Asia.
+Entity: promote
+Answer: No.
+
+Sentence: Kind of Bart or Lisa's age back in the days of the original simpsons.
+Entity: original
+Answer: Yes.
+
+Sentence: President Bush signed a disaster declaration covering seven Northern California counties.
+Entity: President Bush
+Answer: No.
+
+Sentence: The government's construction spending figures contrast with a report issued earlier in the week by McGraw-Hill Inc.'s F.W. Dodge Group.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art/film" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

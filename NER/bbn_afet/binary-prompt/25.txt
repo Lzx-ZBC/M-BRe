@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LAW" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Which goes to show that the First Law applies in insurance as in anything else: There is no free lunch, there is only marketing.
+Entity: First
+Answer: Yes.
+
+Sentence: While UAL faltered, AMR, the parent of American Airlines, pulled out of its recent nosedive by rising 3\/4 to 74.
+Entity: American
+Answer: No.
+
+Sentence: First, its position in the government is anomalous.
+Entity: First
+Answer: Yes.
+
+Sentence: Spiegel, which also owns Eddie Bauer and Honeybee, says that since 1987, sales have doubled during the week before Christmas.
+Entity: Eddie Bauer
+Answer: No.
+
+Sentence: The Treasury said it will alter the auctions unless it has assurance of enactment of legislation to raise the statutory debt limit before the scheduled auctions Monday.
+Entity: scheduled
+Answer: Yes.
+
+Sentence: The law is meant to overcome delays caused by defendants' use of foreign procedures to block U.S. requests for records, Judge Keenan said in his opinion.
+Entity: Keenan
+Answer: No.
+
+Sentence: Mr. Ackerman contended that it was a direct response to his efforts to gain control of Datapoint.
+Entity: Datapoint
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LAW" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

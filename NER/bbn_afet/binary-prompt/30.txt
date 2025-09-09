@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Meanwhile, Wall Street's volatility unnerved investors in other markets.
+Entity: Wall Street
+Answer: Yes.
+
+Sentence: For more than a decade, banks have been pressing Congress and banking regulators for expanded powers to act like securities firms in playing Wall Street's lucrative takeover game, from giving mergers advice all the way to selling and trading high-yield junk bonds.
+Entity: Congress
+Answer: No.
+
+Sentence: To illustrate, Mr. Rogers said that of the 14 computer-related firms he follows, half will report for their most recent quarter earnings below last year's results, and half above those results.
+Entity: Rogers
+Answer: Yes.
+
+Sentence: It is generally agreed that when CFCs rise from earth to stratosphere, the chlorine in them is capable of interfering with the process through which ultraviolet rays split oxygen molecules and form ozone.
+Entity: It
+Answer: No.
+
+Sentence: LTV filed for protection under Chapter 11 in federal bankruptcy court in 1986.
+Entity: federal bankruptcy court
+Answer: Yes.
+
+Sentence: Then the two camps upped the ante: Reports that Chosen Soren had donated directly to JSP members were rapidly countered by statements that the South Korean residents' organization had long been donating directly to LDP members.
+Entity: South Korean
+Answer: No.
+
+Sentence: After Mr. Carter was defeated in 1980, the shah's ghost claimed the credit and then went after President Reagan and Cap Weinberger.
+Entity: Reagan
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

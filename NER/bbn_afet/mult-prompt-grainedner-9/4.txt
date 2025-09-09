@@ -1,0 +1,18 @@
+Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
+
+Instruction:
+Given a sentence, identify the fine-grained label of entity within it.
+
+Here is a list of fine-grained label of entities:
+(1) /WORK_OF_ART/PLAY
+(2) /LOCATION/REGION
+(3) /GPE/COUNTRY
+(4) /CONTACT_INFO/url
+(5) /LAW
+(6) /PRODUCT/WEAPON
+
+Below is the target sentence. Please identify the fine-grained label of entity within the target sentence. Just output the fine-grained label of entity with double quotes.
+
+Target Sentence: (TEXT)
+
+Target Answer:

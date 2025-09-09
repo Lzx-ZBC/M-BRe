@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/HOTEL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Company President Steve Papetti says Marriott will be among his clients as well.
+Entity: Marriott
+Answer: Yes.
+
+Sentence: The Clarksburg, W.Va., producer of gas and oil, said it wants shareholders to approve the split because it would `` enhance the marketability'' and trading of the stock.
+Entity: oil
+Answer: No.
+
+Sentence: A good half-hour into breakfast at the Palmer House, Mr. O'Brien looks up from his plate after Mr. Straszheim says something about people who believe interest rates are about to nosedive.
+Entity: Palmer House
+Answer: Yes.
+
+Sentence: To keep him quiet we invent a new unified command every year or so run by the Army or the Air Force and put more of the Navy and Marines under it.
+Entity: Air Force
+Answer: No.
+
+Sentence: Of the total purchase price, $50 million cash and $30 million in stock (nearly 1.8 million shares) would be paid to buy the existing 700-room Marina Hotel & amp; Casino from Southwest Securities, a Nevada limited partnership.
+Entity: Marina Hotel
+Answer: Yes.
+
+Sentence: Bankers Trust `` has had the capacity to do this for some time,'' the analyst said.
+Entity: Bankers Trust
+Answer: No.
+
+Sentence: Mr. Gillespie at Viacom says the ratings are rising.
+Entity: Gillespie
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/HOTEL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/GPE/COUNTRY" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` We are positioned to come through,'' he said, noting that the company's backlog was up from the previous quarter.
+Entity: We
+Answer: Yes.
+
+Sentence: Moody's Investors Service Inc. said it lowered ratings on about $650 million of Beatrice Co. debt, citing the closely held Chicago food concern's proposed recapitalization.
+Entity: Beatrice Co.
+Answer: No.
+
+Sentence: Judging by the crush at the exhibition, deprived Soviet consumers are more than ready for U.S. products.
+Entity: Soviet
+Answer: Yes.
+
+Sentence: Mr. Seelenfreund is executive vice president and chief financial officer of McKesson and will continue in those roles.
+Entity: vice president
+Answer: No.
+
+Sentence: There have been some reports that Mr. Krenz is moving to `` soften'' his reputation, notably rumors that it was he who kept East Germany's state police off protesters' backs at the country's dismal 40th anniversary celebrations earlier this month.
+Entity: East Germany
+Answer: Yes.
+
+Sentence: The arbitragers and takeover initiatiors got killed on Gray Friday, while the besieged managers of prospective targets cheered lustily.
+Entity: killed
+Answer: No.
+
+Sentence: The East German media soon began presenting Mr. Gorbachev's speeches only as sketchy summaries, and giving space to his opponents.
+Entity: East German
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/GPE/COUNTRY" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

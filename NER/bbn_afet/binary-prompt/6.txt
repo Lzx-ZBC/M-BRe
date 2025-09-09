@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/GPE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: A number of cities -- including Minneapolis, Philadelphia and Houston -- have vacant grain elevators, Eggers says.
+Entity: Philadelphia
+Answer: Yes.
+
+Sentence: `` In the U.S., there are still people who want to crush China and interfere in our internal affairs,'' Zhu Qizhen, China's new ambassador to the U.S., said as he left for Washington last week.
+Entity: ambassador
+Answer: No.
+
+Sentence: The charge on loans to depository institutions by the New York Federal Reserve Bank.
+Entity: New York
+Answer: Yes.
+
+Sentence: Under traditional legal theories, inability to prove which company manufactured a drug that caused an injury or death would lead to the lawsuit being dismissed.
+Entity: drug
+Answer: No.
+
+Sentence: What Mr. Traub is hoping to put together, investment bankers say, is a management-led group to buy the New York department-store group that he heads from Campeau's Federated Department Stores subsidiary.
+Entity: New York
+Answer: Yes.
+
+Sentence: One customer, Donald Blaggs of Mobile, says the Barrett Rake allowed him to do his lawn in 2 hours, two hours less than usual.
+Entity: Barrett
+Answer: No.
+
+Sentence: The U.S. is one of the few industrialized nations that does n't have a higher standard of regulation for the smooth, needle-like fibers such as crocidolite that are classified as amphobiles, according to Brooke T. Mossman, a professor of pathlogy at the University of Vermont College of Medicine.
+Entity: Vermont College
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/GPE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

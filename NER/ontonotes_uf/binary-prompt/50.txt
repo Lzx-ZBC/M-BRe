@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/geography/island" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: They transferred some $28 million from the Community Development Block Grant program designated largely for low-and moderate-income projects and funneled it into such items as: -- $1.2 million for a performing-arts center in Newark, -- $1.3 million for `` job retention'' in Hawaiian sugar mills. -- $400,000 for a collapsing utility tunnel in Salisbury, -- $500,000 for `` equipment and landscaping to deter crime and aid police surveillance'' at a Michigan park. -- $450,000 for `` integrated urban data based in seven cities.'' No other details. -- $390,000 for a library and recreation center at Mackinac Island, Mich.
+Entity: Mackinac Island
+Answer: Yes.
+
+Sentence: King Solomon also built whatever he wanted in Jerusalem, Lebanon, and all the places he ruled.
+Entity: King Solomon
+Answer: No.
+
+Sentence: Santa Fe International Corp., which is owned by Kuwait-LRB-and is n't related to Santa Fe Southern Pacific's unit-RRB -, is stepping up development of a well off Texas' Matagorda Island where it found gas in 1987.
+Entity: Matagorda Island
+Answer: Yes.
+
+Sentence: Israeli news media report the election could be held as early as May 8th or May 15th, two years after Mr. Barak's landslide victory over his right-wing predecessor Benjamin Netanyahu.
+Entity: Benjamin Netanyahu
+Answer: No.
+
+Sentence: Or ride the giant Ferris wheel to get a bird's eye view from high above of the magnificent panorama of Hong Kong Island and the South China Sea.
+Entity: Hong Kong Island
+Answer: Yes.
+
+Sentence: Then David died and was buried in the City of David.
+Entity: Then
+Answer: No.
+
+Sentence: It is noticed that the officials in Hezbollah prevent any stranger from entering the places of the strikes or trying to get in touch or talk with some of the strikers for fear of revealing these secrets.
+Entity: Hezbollah
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/geography/island" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

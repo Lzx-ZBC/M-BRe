@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Shanxi province has established bilateral government loan relations with 17 countries in the world, and established loan co-operation and free aid relations with international finance institutions and organizations, such as the World Bank, the Asian Development Bank, the International Agriculture Development Fund, the United Nations Grain Planning Office, the United Nations Children's Fund, the Population Fund, etc. and has unfolded commercial loan business with financial institutions in many countries and areas.
+Entity: finance
+Answer: Yes.
+
+Sentence: No Mr. Rumsfeld.. do n't forget that you are speaking with Saddam Hussein, the president of the state of Iraq.
+Entity: Saddam
+Answer: No.
+
+Sentence: So the Aramean soldiers said to each other, `` The king of Israel has hired the kings of the Hittites and Egyptians to come against us.''
+Entity: So
+Answer: Yes.
+
+Sentence: In addition, both administration and congressional officials said the need for guidelines on coups and assassinations was partly spurred by a White House desire to avoid nasty overseas surprises during the election campaign.
+Entity: congressional
+Answer: No.
+
+Sentence: The king said, `` Ahimaaz is a good man, he must be bringing good news.''
+Entity: Ahimaaz
+Answer: Yes.
+
+Sentence: `` It's a severe case of regulatory whiplash,'' complains Henry Saveth of consultant A. Foster Higgins & Co.
+Entity: Higgins
+Answer: No.
+
+Sentence: Do you still remember, ah, during the Afghan war and the Iraq war, we could often see on screen the al-Jazeera footage such as bin Laden and some other al-Qaeda leaders giving speeches.
+Entity: screen
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

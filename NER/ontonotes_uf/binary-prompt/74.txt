@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/protest" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The association said its October index of economic activity rose to 51.6% after having been below 50% for three consecutive months.
+Entity: October
+Answer: Yes.
+
+Sentence: The Kramers must wait and travel to another town for Abby.
+Entity: The
+Answer: No.
+
+Sentence: But traders said the junk bond market increasingly is separating into a top-tier group, in which trades can be executed easily, and a larger group of lower-quality bonds in which liquidity -- or the ability to trade without too much difficulty -- has steadily deteriorated this year.
+Entity: executed
+Answer: Yes.
+
+Sentence: `` All the `` sogo-shosha'' are looking for new business,'' says Arthur Klauser, adviser to the president of Mitsui, U.S.A., using the Japanese term for the largest of the global trading houses.
+Entity: Mitsui
+Answer: No.
+
+Sentence: But last February, a federal appeals court in New Orleans upheld a damage award against General Dynamics, rejecting the company's use of the government contractor defense.
+Entity: February
+Answer: Yes.
+
+Sentence: Searle, a unit of Monsanto Co., said the `` beta-blocker'' high-blood-pressure drug Kerlone is the first product to reach the market through Lorex Pharmaceuticals, the U.S. company jointly owned by Searle and Synthelabo, a French pharmaceutical concern owned by France's L'Oreal S.A.
+Entity: Pharmaceuticals
+Answer: No.
+
+Sentence: -LSB- wmkj2006 -RSB- Recently, at the annual meeting of the Capital TV Program Production Association, a person in charge from the State Administration of Radio Film and Television put forward requirements for this year's TV drama market: `` The quantity of TV dramas produced should be controlled, with the slogan of the year of quality for TV dramas being proposed.
+Entity: Television
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/protest" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

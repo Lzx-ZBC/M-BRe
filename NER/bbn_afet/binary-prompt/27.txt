@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/SUBSTANCE/CHEMICAL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Industrywide, oil production in this country fell by 500,000 barrels a day to 7.7 million barrels in the first eight months of this year.
+Entity: oil production
+Answer: Yes.
+
+Sentence: But advancing issues on the New York Stock Exchange were tidily ahead of declining stocks, 847 to 644.
+Entity: advancing
+Answer: No.
+
+Sentence: As for GM, its `` fallback position has to be a full bid itself,'' said Stephen Reitman, European auto-industry analyst at London brokers UBS-Phillips & amp; Drew.
+Entity: As
+Answer: Yes.
+
+Sentence: The companies apt to run into earnings problems soonest are the ones with heavy debt loads, says Larry Biehl, partner in the San Mateo, Calif., money-management firm of Bailard, Biehl & amp; Kaiser.
+Entity: Kaiser
+Answer: No.
+
+Sentence: The U.S. did manage to supply the Dutch with oil by relabeling supplies; once oil is shipped, no one can tell its source.
+Entity: oil
+Answer: Yes.
+
+Sentence: During Mr. McGovern's nine-year term as president, the company's sales rose to $5.7 billion from $2.8 billion and net income increased to $274 million from $130 million, the statement said.
+Entity: rose
+Answer: No.
+
+Sentence: They had dealt a major setback that afternoon to President Bush's capital-gains tax cut proposal, which had seemed in the bag after it passed the House overwhelmingly earlier in the month.
+Entity: House
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/SUBSTANCE/CHEMICAL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

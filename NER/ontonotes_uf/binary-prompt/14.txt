@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/education" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: After graduating, I will go back; no matter where I work, I'm still a USTC student, and I have no regrets about USTC and no regrets about my country.
+Entity: USTC
+Answer: Yes.
+
+Sentence: and uh nobody has seen doctors or been medicated.
+Entity: medicated
+Answer: No.
+
+Sentence: I'm not uh excusing the crimes.
+Entity: uh
+Answer: Yes.
+
+Sentence: Let me turn to Iraq the big discussion in our country about Iraq the way the issue is being covered by the media.
+Entity: big
+Answer: No.
+
+Sentence: In 1943, he joined the student movement led by an underground party, then joined the Chinese Communist Party in April, 1946, and graduated in 1947 from the department of Electric Engineering of Shanghai Jiaotong University.
+Entity: Electric Engineering
+Answer: Yes.
+
+Sentence: The giant computer maker is slated to offer $500 million of 30-year non-callable debentures through underwriters led by Salomon Brothers Inc.
+Entity: The
+Answer: No.
+
+Sentence: The units have worked on 37 investment banking deals this year, he says, though not all of them have panned out.
+Entity: investment banking
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/education" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

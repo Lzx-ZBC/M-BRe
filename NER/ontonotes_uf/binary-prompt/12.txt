@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/transit" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: We set up traffic diversion points at 68 locations along East Second Ring Road, East Fourth Ring Road, West Dawang Road, ah, and related roads to the east and west, and deployed more than 210 additional police officers to divert and direct traffic.
+Entity: Second Ring Road
+Answer: Yes.
+
+Sentence: The sex megastore is now a staple feature in the famous red-light districts of Paris-LRB-other big names here include Scarlet and Sexodrome in Pigalle-RRB -.
+Entity: big
+Answer: No.
+
+Sentence: The main reason I wrote that letter was not because of the one who did the wrong or the one who was hurt.
+Entity: The main
+Answer: Yes.
+
+Sentence: The United States has thus been deliberately unclear-it does not exclude Taiwan from the TMD, but it has not clearly said that Taiwan would be included.
+Entity: Taiwan
+Answer: No.
+
+Sentence: Many blue-collar customers of downtown's no-frills gambling spots have been lured to the Strip or to Laughlin, Nev., a Colorado River town catering to snowbirds and the recreational-vehicle crowd.
+Entity: Strip
+Answer: Yes.
+
+Sentence: `` The industry is still pretty much in its Wild West days,'' says Scott Stapf, director of investor education for the North American Securities Administrators Association.
+Entity: director
+Answer: No.
+
+Sentence: He liked a drink, as his friends will testify, and stories of his drinking exploits are still told with relish.
+Entity: He
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/transit" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

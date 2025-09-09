@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/artist/author" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Despite politicians' hand-wringing about the federal budget, the government ended fiscal 1989 with a $152.08 billion deficit, about the same as the two previous years.
+Entity: government
+Answer: Yes.
+
+Sentence: Gulf Canada, Calgary, said the transaction is part of its plan to sell non-strategic assets and focus operations on Canada, Indonesia and other international areas.
+Entity: Indonesia
+Answer: No.
+
+Sentence: In a letter to James L. Connaughton, the head of the White House Council on Environmental Quality, Rep. Henry Waxman, D-Calif., the chairman of the House Oversight and Government Reform Committee, called the campaign an & quot; inappropriate use of taxpayer money & quot; and asked Connaughton to repudiate it.
+Entity: James
+Answer: Yes.
+
+Sentence: The defendants could n't immediately be reached for comment.
+Entity: The
+Answer: No.
+
+Sentence: It was revealed that the proceedings were returned to him again. And that he justified his refusal of the previous instruction on the invalidity of the decision of dismissal which was according to the instruction of the governor of Riyadh and his insistence on my dismissal.
+Entity: revealed
+Answer: Yes.
+
+Sentence: -LSB- wonderlich -RSB- A neutral Mongolia is really great for both China and Russia
+Entity: Mongolia
+Answer: No.
+
+Sentence: `` This is serious business; we're serious about a capital-gains reduction,'' said Kansas Sen. Robert Dole, the Senate's Republican leader.
+Entity: Republican
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/artist/author" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

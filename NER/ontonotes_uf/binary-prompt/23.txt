@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The merged agency's game plan to attract multinational packaged-goods advertisers may prove equally difficult.
+Entity: The
+Answer: Yes.
+
+Sentence: He says, `` The person who obeys these laws is the one who will have life through them.''
+Entity: The
+Answer: No.
+
+Sentence: If you identify with the besieged managers, you must concede that speedy and effective relief from the excesses of the takeover market is more likely to come from the marketplace than from Washington.
+Entity: If
+Answer: Yes.
+
+Sentence: God bless the one who comes in the name of the Lord!'
+Entity: God
+Answer: No.
+
+Sentence: The story from `` Newsnight's'' Beth Nissen.
+Entity: The
+Answer: Yes.
+
+Sentence: According to reports, in recent days the city of Changsha has used 24 karat gold to re-case a 7.1 m tall statue of Mao Zedong and, to form a complete set, also has constructed a four-thousand-square-meter Gold Statue Square to provide people a place to commemorate and relax.
+Entity: gold
+Answer: No.
+
+Sentence: After years of decline, weddings in France showed a 2.2% upturn last year, with 6,000 more couples exchanging rings in 1988 than in the previous year, the national statistics office said.
+Entity: After
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

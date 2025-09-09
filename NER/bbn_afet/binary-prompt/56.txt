@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/EVENT/HURRICANE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Meanwhile, within the next few weeks, the limited partners in Ivan F. Boesky & amp; Co. L.P. are expected to reach a partial settlement with Drexel Burnham Lambert Inc. regarding the distribution of the $330 million in partnership assets, said one of the individuals.
+Entity: Ivan
+Answer: Yes.
+
+Sentence: He has said that he now knows how Justice John Harlan felt, a reference to the late conservative justice who was the most frequent dissenter from the Warren Court's opinions.
+Entity: Justice
+Answer: No.
+
+Sentence: He suspects some insurers who had purchased reinsurance to limit their exposure to catastrophes will discover that reinsurance was used up by Hurricane Hugo.
+Entity: Hurricane Hugo
+Answer: Yes.
+
+Sentence: CBS News is also re-enacting the 1979 Three Mile Island nuclear accident in Middletown, Pa., with something less than a cast of thousands.
+Entity: News
+Answer: No.
+
+Sentence: On her husband's 50th birthday (after an auspicious 23 years of marriage, it should be noted), Betsy, Al and their college-bound son set out for New York to visit Fordham University.
+Entity: Betsy
+Answer: Yes.
+
+Sentence: On a pro-forma basis, assuming the merger was effective Jan 1, 1988, including the results from both Time Inc. and all of Warner, that cash flow figure would be $526 million for the latest quarter, more than double the comparable figure a year ago, or $242 million, according to Time Warner.
+Entity: Time Inc.
+Answer: No.
+
+Sentence: The company said it acquired 2.5 million shares for 785 pence ($12.48) each, or a total of # 19.6 million ($31.2 million), from its broker, Barclays de Zoete Wedd.
+Entity: total
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/EVENT/HURRICANE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

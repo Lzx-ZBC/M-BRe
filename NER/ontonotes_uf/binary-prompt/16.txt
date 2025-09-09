@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/military" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Analysts believe some tribal warlords may have taken advantage of American firepower by accusing rival leaders of being Taliban and misguiding U.S. intelligence.
+Entity: American
+Answer: Yes.
+
+Sentence: So, did these two Party members-LRB-Gao XX previously held the positions of chief of the Shandong Linyi administrative office, deputy head of the electrical utility bureau, assistant to the head of the Shandong electricity bureau, and general manager and party secretary of Shandong Luneng Stock Controlling Group. Having gone through all of Luneng's stock transfers, he is still currently the chairman of Luneng Group. Xu X has served as head of the electrical utility bureau of Linyi, Shandong. In about 2003 he first entered the headquarters of Luneng Group as vice president assigned to manage property operations, after which he was very quickly promoted to the president of Luneng Group-RRB -, in the process of the series of mysterious stock deals at Luneng Group, carry out the unshirkable duties which the party members should undertake regarding state-owned assets and the public interest in strict accordance with the CPC Charter and the Party's strict discipline?
+Entity: chairman
+Answer: No.
+
+Sentence: Comrades attending the symposium deeply expressed condolences and cherished the brave revolutionary martyrs that sacrificed themselves in the Southern Anhui Incident, passionately sang praises for the New Fourth Army for the great achievements made in the liberation of the race and the creation of a new China, practically and realistically reflected on the experience and lessons from the Southern Anhui Incident, denouncing the crimes of the creator of this tragedy.
+Entity: New Fourth Army
+Answer: Yes.
+
+Sentence: This name has made the spotted leopard a common motif for costume jewelry.
+Entity: leopard
+Answer: No.
+
+Sentence: So what happened to the FBI warning?
+Entity: FBI
+Answer: Yes.
+
+Sentence: And you see Apache helicopter pilot and his wife Michelle who was talking with us on the telephone the Sunday morning when the video came in of the rescue of the POWs and, she identified her husband and life just got better and better for her after that.
+Entity: Apache helicopter
+Answer: No.
+
+Sentence: The targeted audit groups include direct sellers -- people who sell cosmetics, housewares and other items door to door or at home parties -- and employers who label workers as independent contractors instead of employees, to avoid the employer share of payroll taxes.
+Entity: independent contractors
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/military" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/PRODUCT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Also for sale are Buckingham Wile Co., which distributes Cutty Sark blended whiskey in the U.S., and Whitbread's Atlas Peak Vineyards in California's Napa Valley.
+Entity: whiskey
+Answer: Yes.
+
+Sentence: Foremost among those is the company's entrance into the public facsimile business, Mr. Pierce said.
+Entity: Pierce
+Answer: No.
+
+Sentence: In June, farmers held onto meat, milk and grain, waiting for July's usual state-directed price rises.
+Entity: milk
+Answer: Yes.
+
+Sentence: Mr. Riese says American Express considers GM and Buick `` very sophisticated direct-mail marketers,'' so `` by joining forces with them we have managed to maximize our direct-mail capability.'' In addition, Buick is a relatively respected nameplate among American Express card holders, says an American Express spokeswoman.
+Entity: American
+Answer: No.
+
+Sentence: As she rode over regulations, only her friendship with party leaders, including Nguyen Van Linh, then Ho Chi Minh City party secretary, kept her out of jail.
+Entity: Van
+Answer: Yes.
+
+Sentence: Although it was published unsigned in the latest edition of the weekly Ekonomicheskaya Gazeta, Soviet sources say the article was written by Leonid Abalkin and a small group of colleagues.
+Entity: published
+Answer: No.
+
+Sentence: For example, when Detroit began talking about plastic-bodied cars, the American Iron and Steel Institute began a major lobbying effort to show auto makers how they could use steel more efficiently by simply redesigning how a car door is assembled.
+Entity: Detroit
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/PRODUCT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

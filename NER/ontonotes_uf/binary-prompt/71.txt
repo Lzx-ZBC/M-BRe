@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/election" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Sen. Pete Domenici-LRB-R., N.M.-RRB -, the ranking Republican on the Senate Budget Committee, used his influence to preserve more than $132,000 in subsidies for air service to Sante Fe, N.M., and more than $2.1 million would go for service to eight communities in the western Nebraska district of GOP Rep. Virginia Smith on the House Appropriations Committee.
+Entity: GOP
+Answer: Yes.
+
+Sentence: The decade of the 1980s was a pivot, when New York's postwar role as serious art's only serious city came to an end.
+Entity: The
+Answer: No.
+
+Sentence: I'll bet you I'd get more votes from Democrats, Independents and Republicans than a candidate who says we need to continue the status quo, but with more funding for VDOT.
+Entity: Republicans
+Answer: Yes.
+
+Sentence: He met with Israeli Prime Minister Ehud Barak today.
+Entity: He
+Answer: No.
+
+Sentence: Ken Ruberg, head of the Republican Mainstream Committee, a group of party moderates, observes: `` The administration finds itself in an ideological cul de sac that it will find it difficult -- if not impossible -- to get itself out of.
+Entity: Republican
+Answer: Yes.
+
+Sentence: I try to nab every freecycle machine I see listed with an eye toward getting a few good working machines and I can always find homes for the ones I do n't needwant.
+Entity: eye
+Answer: No.
+
+Sentence: McLauren and Jiahua Zou also jointly made inquiries into prospects for co-operations in trade, science and technology between China and Canada.
+Entity: Zou
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/election" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

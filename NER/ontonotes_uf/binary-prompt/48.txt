@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/title" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But God helped me, and he is still helping me today.
+Entity: God
+Answer: Yes.
+
+Sentence: The main reson they are likely to reach that conclusion is that the costs for all this theoretical thinking and experimental development is going to be far higher than the money we `` saved'' on transportation by not providing it.
+Entity: The
+Answer: No.
+
+Sentence: -LSB- -RSB- The Death of Ethnic Chinese Soldier Sun Ming, Hoping It is the Last-LRB-Original-RRB
+Entity: Soldier
+Answer: Yes.
+
+Sentence: He pointed out that if I was to suffer an engine failure at any time after passing the numbers downwind and not be able to glide to the runway, if I did n't die in the crash he'd kill me for embarrassing him!
+Entity: kill
+Answer: No.
+
+Sentence: However, she remembers the lean years and recalls with relish wearing her first major American purchase -- that turban 10 years later and having a Los Angeles boutique owner ask her if it was a Chanel.
+Entity: major
+Answer: Yes.
+
+Sentence: Fortunately, an aunt with a college degree bought a small farm and moved us 50 miles north to good schools and an environment that opened the world of opportunity for me as an eight-year-old.
+Entity: miles
+Answer: No.
+
+Sentence: Chongqing City currently has more than 2.1 million various commercial organizations, and nearly 300 financial institutions of various kinds.
+Entity: Chongqing City
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/title" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

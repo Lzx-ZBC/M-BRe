@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/artist/music" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: That is Amidu Barry, one half of the duo Positive Black Soul or PBS.
+Entity: Barry
+Answer: Yes.
+
+Sentence: In the film classic `` Twelve Angry Men,'' the crucible of deliberations unmasks each juror's bias and purges it from playing a role in the verdict.
+Entity: film
+Answer: No.
+
+Sentence: The Giants scored once and had runners on second-LCB-Whitey Lockman-RCB-and third-LCB-Clint Hartung-RCB-as Bobby Thomson advanced to the plate.''
+Entity: Bobby
+Answer: Yes.
+
+Sentence: Consider a `` laddered'' bond portfolio, with issues maturing in, say, 1992, 1993 and 1994, advises Malcolm A. Makin, a Westerly, R.I., financial planner.
+Entity: Makin
+Answer: No.
+
+Sentence: And Gorky, considered the father of Soviet socialist realism, did not write plays that easily lend themselves to deliberately antirealistic distancing techniques.
+Entity: father
+Answer: Yes.
+
+Sentence: The suit, assigned to federal Judge Kimba Wood, seeks a permanent injunction, back pay for judges who have been forced to retire, reinstatement of retired judges and `` other affirmative relief necessary to eradicate the effects of-LRB-New York's -RRB- unlawful employment practices.''
+Entity: The
+Answer: No.
+
+Sentence: oh you guys have really turned into yuppies,% huh?
+Entity: guys
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/artist/music" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

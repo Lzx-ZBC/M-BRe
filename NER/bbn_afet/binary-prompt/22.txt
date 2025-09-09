@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/GAME" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Profit climbed even though Merck's sales were reduced by `` one to three percentage points'' as a result of the strong dollar, Mr. Sweig said.
+Entity: result
+Answer: Yes.
+
+Sentence: He said that if little cocoa actually has arrived at the ports, shipping delays could result.
+Entity: He
+Answer: No.
+
+Sentence: After its previous mayor committed suicide last year, an investigation disclosed that town officials regularly voted on their own projects, gave special favors to developer friends and dipped into the town's coffers for trips and retreats.
+Entity: After
+Answer: Yes.
+
+Sentence: At the time, though, in 1979, the U.S. was once again flirting with its longtime Latin American spy.
+Entity: American
+Answer: No.
+
+Sentence: As a result, Prime Minister Margaret Thatcher's government is n't currently expected to ease interest rates before next spring, if then.
+Entity: result
+Answer: Yes.
+
+Sentence: They wear tuxedos most nights, unless circumstances (a regular gig at a `` tropical'' lounge, for example) require them to wear special costumes, like Hawaiian shirts.
+Entity: tuxedos
+Answer: No.
+
+Sentence: Mr. Beale commented that the mark remains well bid against other currencies as well.
+Entity: Beale
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/GAME" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

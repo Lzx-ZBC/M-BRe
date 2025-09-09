@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FACILITY/AIRPORT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But critics fret that post-1997 officials ultimately will be responsible to Beijing.
+Entity: Beijing
+Answer: Yes.
+
+Sentence: It chronicles how, over a period of a dozen years, Southern Methodist University bought its way to football respectability in the Southwest Conference, only to find itself trapped and strangled by the athlete-payoff system it created.
+Entity: Southern Methodist
+Answer: No.
+
+Sentence: When it opened in 1939, Shannon was the first landfall in Europe for thirsty airplanes flying from North America.
+Entity: Shannon
+Answer: Yes.
+
+Sentence: That does n't appear to be the case in Singapore, a country of about three million people with a relatively high soft-drink consumption rate -- a key indicator of Coke's success in a market.
+Entity: soft-drink
+Answer: No.
+
+Sentence: Thanks to a new air-traffic agreement and the ability of Irish travel agents to issue Aeroflot tickets, tourists here are taking advantage of Aeroflot's reasonable prices to board flights in Shannon for holidays in Havana, Kingston and Mexico City.
+Entity: Shannon
+Answer: Yes.
+
+Sentence: Ms. Bogart, an acclaimed creator of deconstructed dramatic collages that tear into such sacred texts as Rodgers and Hammerstein's `` South Pacific,'' is decidedly downtown.
+Entity: Bogart
+Answer: No.
+
+Sentence: RU-486 is being administered in France only under strict supervision in the presence of a doctor.
+Entity: RU-486
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FACILITY/AIRPORT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

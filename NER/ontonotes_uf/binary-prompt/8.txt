@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/geography" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Oil production from Australia's Bass Strait fields will be raised by 11,000 barrels a day to about 321,000 barrels with the launch of the Whiting field, the first of five small fields scheduled to be brought into production before the end of 1990.
+Entity: Bass Strait
+Answer: Yes.
+
+Sentence: He recently appeared on Serbian television in a two-hour interview, while she has taken up her seat in the Federal Parliament.
+Entity: Federal Parliament
+Answer: No.
+
+Sentence: Sparks flow, parts fall off, guys start screaming when the rear axle flys away-but nobody will call for help because of high cell charges or something.
+Entity: flys
+Answer: Yes.
+
+Sentence: She was an unstinting teacher who won laurels and inspired students, but she will probably never teach again.
+Entity: laurels
+Answer: No.
+
+Sentence: At a press conference this afternoon, new immigration law confirmed by Immigration Minister David Cunliffe will give immigration officials the power to collect, store and use biometric information of non-New Zealand citizens.
+Entity: Zealand
+Answer: Yes.
+
+Sentence: He was a Muslim, and his blood type was A +.
+Entity: He
+Answer: No.
+
+Sentence: `` But the real future of this game is in a number of people owning a few horses.''
+Entity: owning
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/geography" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

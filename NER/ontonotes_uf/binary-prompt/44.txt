@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/legal" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: By 1997, amid the full-scale takeover of the Washington GOP by the long-churning cabal of neoconservatives, he joined Cheney and Wolfowitz on a Newt Gingirch-instigated Congressional Policy Advisory Board to shape attacks on the second Clinton Administration.
+Entity: Clinton
+Answer: Yes.
+
+Sentence: I just saw in the paper today, a little boy got attacked
+Entity: boy
+Answer: No.
+
+Sentence: Yet Senator Lieberman there are still widespread reports that the US does n't have enough human assets spies that are penetrating some of these cells some of these al Qaeda related organizations does n't have enough native speakers in Arabic or other languages part of these groups.
+Entity: Lieberman
+Answer: Yes.
+
+Sentence: If this passes -- a Senate version has already been cleared for a floor vote that is likely early next year -- it would put the federal government into the contraceptive marketing business for the first time.
+Entity: If
+Answer: No.
+
+Sentence: In his home state of Arizona Republican Senator Jon Kyl.
+Entity: Jon Kyl
+Answer: Yes.
+
+Sentence: You know my criticism of the Bush administration as you know we've talked about this before is not that this war is not important.
+Entity: Bush
+Answer: No.
+
+Sentence: Baker also considers it necessary that the Iraqi government move to achieve tangible progress, forgetting-or ignoring-that it is incapable even of protecting itself, and that it is a sectarian government implementing its own agenda which is inflaming sectarian war in the country.
+Entity: Baker
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/legal" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

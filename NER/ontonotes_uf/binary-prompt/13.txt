@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/company" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: In a move apparently aimed at heading off new punitive legislation, Mr. Deng sent an indirect signal to Washington via T.D. Lee, a Columbia University physicist who met Mr. Deng and other Chinese leaders in Beijing last month.
+Entity: Columbia University
+Answer: Yes.
+
+Sentence: During the late 1970s, he was part of a musical `` brat pack'' -- a group of budding virtuosos who studied at the Juilliard School with the noted pedagogue Dorothy DeLay.
+Entity: DeLay
+Answer: No.
+
+Sentence: Yet, says Mr. Carpenter, `` We've really started to exploit the synergy between GE Capital and Kidder Peabody.''
+Entity: GE Capital
+Answer: Yes.
+
+Sentence: For example killing the nerves, and dealing with the dental crown...
+Entity: crown
+Answer: No.
+
+Sentence: The glory of God gave the city light.
+Entity: city light
+Answer: Yes.
+
+Sentence: The defendants were indicted two years ago on charges that they conspired to defraud five thrifts of more than $130 million through a complicated scheme to inflate the price of land and condominium construction along Interstate 30, east of Dallas.
+Entity: east
+Answer: No.
+
+Sentence: In contrast to the more artistic nature of traditional cosmetics houses, Unilever and P & G are the habitats of organization men in gray-flannel suits.
+Entity: suits
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/company" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

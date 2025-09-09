@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/supernatural" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: So continue to live in Christ, as his gift taught you.
+Entity: Christ
+Answer: Yes.
+
+Sentence: The next day, Mr. Schaeffer presented the couple with a check for $151,000 to help them build a new home in the same neighborhood.
+Entity: Schaeffer
+Answer: No.
+
+Sentence: Peng Li also said, `` This time there are a number of entrepreneurs who have come with me to visit, and both sides can enhance contact.
+Entity: Peng
+Answer: Yes.
+
+Sentence: He did not stop committing the sins of Jeroboam son of Nebat who caused Israel to sin.
+Entity: Nebat
+Answer: No.
+
+Sentence: He kicks a lot.
+Entity: He
+Answer: Yes.
+
+Sentence: Since we're talking about Israeli reel and the Middle East, it's not, you know, the major headline every day, but it certainly was a major story.
+Entity: major
+Answer: No.
+
+Sentence: and uh let's just say that it did n't say you walked on water but it came close.
+Entity: uh
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/supernatural" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

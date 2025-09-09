@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/artist/director" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The person in the apartment upstairs is -LSB- crescent -RSB-: a pervert.
+Entity: The person
+Answer: Yes.
+
+Sentence: He said loudly, `` This is the one I was talking about when I said,' The one who is coming after me is greater than I am, because he was living before I was even born.'''
+Entity: He
+Answer: No.
+
+Sentence: To my knowledge, no government entities, including the EPA, are pursuing UV-B measurements.
+Entity: To
+Answer: Yes.
+
+Sentence: Sahar Kamal was the owner of the house facing the fire, which was totally destroyed, because more than one flaming bottle fell on the two-story house, one apartment on the first floor and two apartments on the second floor, and caused a fire that destroyed all the contents of the house.
+Entity: bottle
+Answer: No.
+
+Sentence: To achieve maximum liquidity and minimize price volatility, either all markets should be open to trading or none.
+Entity: To
+Answer: Yes.
+
+Sentence: Defense contractors `` can not continue to get contracts on that basis,'' said Howard Rubel, an analyst with C.J. Lawrence, Morgan Grenfell Inc. in New York.
+Entity: Howard
+Answer: No.
+
+Sentence: That is when Hezekiah cut off the gold that he had put on the doors and doorposts of the Lord's Temple and gave it to the king of Assyria.
+Entity: gold
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/artist/director" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

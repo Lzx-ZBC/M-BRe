@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/product/weapon" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Wang could wield his knife like an brush, dashing off inscriptions with the same fluidity as he painted characters.
+Entity: knife
+Answer: Yes.
+
+Sentence: `` My father David wanted very much to build a temple to honor the Lord, the God of Israel.
+Entity: David
+Answer: No.
+
+Sentence: The empty shells piled here along the roadside fill the air with their briny aroma.
+Entity: shells
+Answer: Yes.
+
+Sentence: So they all went back to their hometowns.
+Entity: So
+Answer: No.
+
+Sentence: -LSB- jilian -RSB- Do not cross swords directly with the Russian government; in the name of strengthening Sino-Russian friendship, improving the inherent quality of products and strengthening product quality control, apply strict quality control to goods headed for Russia.
+Entity: swords
+Answer: Yes.
+
+Sentence: They face difficulties everyday, and understanding the stories of the Bible and the ways of God can help them deal with these difficulties with confidence.
+Entity: God
+Answer: No.
+
+Sentence: When you have a malignant tumor, you may remove the tumor itself surgically.
+Entity: malignant tumor
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/product/weapon" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

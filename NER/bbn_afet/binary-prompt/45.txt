@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/WORK_OF_ART/BOOK" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It is a quick fix for a complex problem.
+Entity: It
+Answer: Yes.
+
+Sentence: In return, he has the government's blessing to build churches and spread Unificationism in that country.
+Entity: In
+Answer: No.
+
+Sentence: The ULI is a non-profit research and education group based in Washington, D.C., with 14,000 members nationwide.
+Entity: The
+Answer: Yes.
+
+Sentence: They cite the emergence of still electronic photography, more newspapers turning to color on their pages and measurable improvements in the quality of color prints. `` Black and white has n't made the same quantum leaps in technological development as color,'' says Mr. Butler of the Rochester Institute.
+Entity: Rochester
+Answer: No.
+
+Sentence: The husky blond guide with the Aggie cap twists his face in mock fury.
+Entity: The
+Answer: Yes.
+
+Sentence: `` The transit system is how people are going to be getting around.''
+Entity: The
+Answer: No.
+
+Sentence: Late buying gave the Paris Bourse a parachute after its free fall early in the day.
+Entity: Paris Bourse
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/WORK_OF_ART/BOOK" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

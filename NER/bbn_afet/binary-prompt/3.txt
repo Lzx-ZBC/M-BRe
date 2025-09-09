@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LOCATION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` Ford's appetite to attack { Jaguar } could gradually wane over time, particularly if Saab is a reasonably attractive proposition,'' says John Lawson, an auto analyst at London's Nomura Research Institute.
+Entity: London
+Answer: Yes.
+
+Sentence: ONE-DAY JAUNTS in a chartered boat were perks for permanent staffers of American Business Service Corp., a Costa Mesa, Calif., supplier of temporary workers.
+Entity: Costa Mesa
+Answer: No.
+
+Sentence: LONDON LATE EURODOLLARS: 8% to 8% one month; 8% to 8% two months; 8% to 8% three months; 8% to 8% four months; 8% to 8% five months; 8% to 8% six months.
+Entity: LONDON
+Answer: Yes.
+
+Sentence: But unlike the other new leaders in the East Bloc, Mr. Krenz will face an immediate threat to his nation's very existence: German reunification.
+Entity: German
+Answer: No.
+
+Sentence: Eli Lilly & amp; Co., the Indianapolis-based drug manufacturer, dominates the U.S. human insulin market with its product known as Humulin.
+Entity: U.S.
+Answer: Yes.
+
+Sentence: Western New Mexico Telephone, Silver City, had net income of $1.9 million on revenue of about $10 million last year.
+Entity: Silver City
+Answer: No.
+
+Sentence: In addition, an investor who wants to know the daily value of Treasury bonds, or corporate bonds traded on the New York Stock Exchange, can simply check newspaper listings.
+Entity: New York
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LOCATION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

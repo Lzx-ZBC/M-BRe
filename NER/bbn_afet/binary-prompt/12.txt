@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/WORK_OF_ART/PAINTING" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Mr. Guber and Mr. Peters claim they have an oral agreement with Warner executives that allows them to terminate their contract should the opportunity to run a major studio arise.
+Entity: major
+Answer: Yes.
+
+Sentence: GM has scheduled overtime at its Lordstown, Ohio, and Janesville, Wis., assembly plants, which build the Chevrolet Cavalier.
+Entity: Ohio
+Answer: No.
+
+Sentence: GM has scheduled overtime at its Lordstown, Ohio, and Janesville, Wis., assembly plants, which build the Chevrolet Cavalier.
+Entity: Ohio
+Answer: Yes.
+
+Sentence: Article II places on the president the duty to nominate, `` and by and with the Advice and Consent of the Senate'' appoint, ambassadors, judges, and other officers of the U.S..
+Entity: U.S.
+Answer: No.
+
+Sentence: Article II places on the president the duty to nominate, `` and by and with the Advice and Consent of the Senate'' appoint, ambassadors, judges, and other officers of the U.S..
+Entity: U.S.
+Answer: Yes.
+
+Sentence: World Bank (agency) -- # 100 million of 10% bonds due Aug. 15, 1994, offered at 96.95 to yield 11.71%, via Baring Brothers & amp; Co.
+Entity: Co
+Answer: No.
+
+Sentence: McCormick Capital Inc. said the final proration factor was 0.628394 on its oversubscribed, $3-a-share tender offer to buy back as many as 1.1 million of its common shares.
+Entity: final
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/WORK_OF_ART/PAINTING" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

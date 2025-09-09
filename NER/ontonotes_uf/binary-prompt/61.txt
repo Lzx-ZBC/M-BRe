@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/transit/railway" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Trinity Industries Inc. said it reached a preliminary agreement to manufacture 1,000 coal rail cars for Norfolk Southern Corp.
+Entity: Norfolk Southern
+Answer: Yes.
+
+Sentence: Such dignity `` has to do crucially with a butler's ability not to abandon the professional being he inhabits.''
+Entity: butler
+Answer: No.
+
+Sentence: Trinity Industries Inc. said it reached a preliminary agreement to manufacture 1,000 coal rail cars for Norfolk Southern Corp.
+Entity: Norfolk Southern
+Answer: Yes.
+
+Sentence: As uh Larry just told you I'm Paula Zahn filling in for the two men Anderson Cooper and Aaron Brown.
+Entity: Aaron
+Answer: No.
+
+Sentence: It said the 1,000 rail cars are in addition to the 1,450 coal rail cars presently being produced for Norfolk Southern, a Norfolk, Va.-based railroad concern.
+Entity: Norfolk Southern
+Answer: Yes.
+
+Sentence: There are moments in this `` Summerfolk'' when the characters populating the vast multilevel country house-LRB-which looks like a parody of Frank Lloyd Wright and is designed by Victoria Petrovich-RRB-spout philosophic bon mots with the self-conscious rat-a-tat-tat pacing of `` Laugh In.''
+Entity: Victoria
+Answer: No.
+
+Sentence: Senator Schumer same question for you.
+Entity: Senator
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/transit/railway" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

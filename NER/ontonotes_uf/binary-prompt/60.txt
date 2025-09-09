@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/transit/bridge" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The construction of Shantou's New High Level Technology Development Zone has preliminarily taken shape.
+Entity: High Level
+Answer: Yes.
+
+Sentence: The current fitness trend in Taiwan combines working out with recreation and the traditional Chinese idea of `` health cultivation. ``
+Entity: Chinese
+Answer: No.
+
+Sentence: Innocent bystanders often are the victims.
+Entity: victims
+Answer: Yes.
+
+Sentence: Back to Jacksboro Tennessee now where tonight Campbell County Comprehensive High School is a crime scene the site of today's deadly school shooting.
+Entity: school shooting
+Answer: No.
+
+Sentence: `` But if you support him over rape victims, this may be your last term.''
+Entity: victims
+Answer: Yes.
+
+Sentence: I do not stray far from the truth if I say that I have read a lot in sociology, from the Introduction of its founder, Ibn Khaldoun, passing by Gamal Hemdan-LRB-the best man to describe Egypt lately-RRB -, to the last student in the sociology department-the university of the poor, who are injured with knives and sticks and surrounded by the gangs of national sadness.
+Entity: man
+Answer: No.
+
+Sentence: I occasionally see them in garage sales, often in their original boxes.
+Entity: original
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/transit/bridge" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

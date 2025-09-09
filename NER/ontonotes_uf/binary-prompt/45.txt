@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/person/military" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` Ananias told me,' The God of our fathers chose you long ago to know his plan.
+Entity: The
+Answer: Yes.
+
+Sentence: Someone in your group has caused sadness -- not to me, but to all of you.
+Entity: sadness
+Answer: No.
+
+Sentence: On April 15, 1961, two of the freshly-painted B-26 bombers were forced to emergency land in Miami after Fidel Castro's air defenses riddled them with bullets.
+Entity: Fidel Castro
+Answer: Yes.
+
+Sentence: Chen's stopover in Los Angeles was a sensitive subject, for Chen had originally planned an informal meeting with several members of the US Congress.
+Entity: US Congress
+Answer: No.
+
+Sentence: John Moore, a former government intelligence analyst says it was a mistake for those operations to move to Aden.
+Entity: John Moore
+Answer: Yes.
+
+Sentence: These false teachers only want your money.
+Entity: These
+Answer: No.
+
+Sentence: If the United States has officially restored diplomatic relations with Yugoslavia, President Clinton announced the move during his visit to Vietnam, calling the changes in Yugoslavia remarkable, following the democratic election of President Vojislav Kostunica and the ouster of Slobodan Milosevic.
+Entity: United States
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/person/military" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

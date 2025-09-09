@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/sports_and_leisure" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: In two of three years, the actual result should fall within that range if all the assumptions were accurate.
+Entity: result
+Answer: Yes.
+
+Sentence: They seemed surprised that,
+Entity: surprised
+Answer: No.
+
+Sentence: Falling in love with his daughter Sunita only inflames Sohan's jealousy further, and on the eve of Ranjit's wedding, Sohan presents him with his gift of some exquisitely tooled dice, and suggests a game while thinking of revenge.
+Entity: dice
+Answer: Yes.
+
+Sentence: They were a big part in `` Operation Iraqi Freedom.''
+Entity: big
+Answer: No.
+
+Sentence: Jesus told her, `` Go get your husband and come back.''
+Entity: Go
+Answer: Yes.
+
+Sentence: The Chinese Children's Fund is planning to send US $300,000 in private donations via the Ministry of Foreign Affairs to provide support for 2,000 children.
+Entity: The
+Answer: No.
+
+Sentence: In San Francisco, small businesses are urging passage of a local initiative to build a new $95 million downtown baseball stadium; they believe it will spur retail sales and hotel-restaurant business.
+Entity: In
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/sports_and_leisure" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

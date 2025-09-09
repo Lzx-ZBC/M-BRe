@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/violent_conflict" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Since the outbreak of the Iranian Revolution in the year 1979 and the overthrow of the Shah's regime, and in spite of the power he enjoyed and the privilege he had with the US and Western countries, and in spite of the presence of the strongest intelligence service in the region-LRB-the SAVAK Agency-RRB -, the Iranian public was able to overthrow the government through the leadership of the Mullahs-LRB-religious men-RRB-without action from the super powers which had supported the Shah's regime.
+Entity: presence
+Answer: Yes.
+
+Sentence: He doubts a Bismarckian super state will emerge that would dominate Europe, but warns of `` a risk of profound change in the heart of the European Community from a Germany that is too strong, even if democratic.''
+Entity: heart
+Answer: No.
+
+Sentence: Two of them are native to Taiwan: the Taiwan red cypress-LRB-Chamaecyparis formosensis, a.k.a. the Formosan cypress-RRB-and the Taiwan yellow cypress-LRB-Chamaecyparis obtusa var. formosana, a variety of hinoki cypress-RRB -.
+Entity: var
+Answer: Yes.
+
+Sentence: My brother Source of the Word. The truth is that I saw the film and it was really terrifying to the extent that I thought I was watching a fictional film... because I could not imagine the extent of the Safavid hatred and criminality.
+Entity: imagine
+Answer: No.
+
+Sentence: They said they dropped plans to infiltrate the Kennedy Space Center after NASA beefed up its security.
+Entity: dropped
+Answer: Yes.
+
+Sentence: Federal examiner Alex Barabolak said Lincoln's operations amounted to `` pyramiding debt to provide a luxurious life style for its owners.''
+Entity: Federal
+Answer: No.
+
+Sentence: Reason by Steve Chapman & quot; For nearly half a century, the United States has maintained an economic embargo in an effort to dislodge Fidel Castro from power.
+Entity: Fidel Castro
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/violent_conflict" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

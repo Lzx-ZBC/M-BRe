@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/city" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` It's called sanitizing your record! `` quips Tan Zhiqiang, Hong Kong and Macau bureau chief for the China Times, who was born and raised in Macau and wrote his doctoral dissertation on `` The Question of Macau's Sovereignty. ``
+Entity: Macau
+Answer: Yes.
+
+Sentence: The deal was symbolized by the restoration of the Shi'ite Sultan Ali Keshtmand to the Afghan prime ministry.
+Entity: restoration
+Answer: No.
+
+Sentence: Israel is also confronting hostilities on its northern border, hostilities the Israeli government was hoping would end when it withdrew its troops from Southern Lebanon five months ago.
+Entity: Israeli government
+Answer: Yes.
+
+Sentence: Bush plans a conciliatory meeting with Vice President Gore next week and he enters the fray with good wishes from Republicans and Democrats alike.
+Entity: fray
+Answer: No.
+
+Sentence: Mr. Lancaster is deputy chief of The Wall Street Journal's Dallas bureau.
+Entity: Lancaster
+Answer: Yes.
+
+Sentence: Today, Sony is offering, and may already have sold, half a million sets of PlayStation 2 in the United States.
+Entity: United States
+Answer: No.
+
+Sentence: As it happens, the Nasdaq composite did continue to fall for two days after the initial plunge.
+Entity: fall
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/city" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

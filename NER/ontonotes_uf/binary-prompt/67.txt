@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art/music" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Actually, there have been reports for the past two days of Jackson back in California.
+Entity: Actually
+Answer: Yes.
+
+Sentence: The first thought some investors had was that a red-faced Shearson must have been wildly bullish on stocks in its original commentary, and that's why it purged its pages.
+Entity: The
+Answer: No.
+
+Sentence: According to another report, Chinese scientists have temporarily named this type of archaeopteryx fossil `` the Divine Land Archaeopteryx ``.
+Entity: According
+Answer: Yes.
+
+Sentence: Tanya Kach who had been going by the name Nickie said she ran away from home in eighth grade when she fell in love with a security guard in her middle school more than twice her age.
+Entity: middle school
+Answer: No.
+
+Sentence: yeah yeah
+Entity: yeah
+Answer: Yes.
+
+Sentence: The meeting passed the `` decision regarding motions raised by 32 NPC representatives such as Yaotang Zheng, etc. ``, and legally confirmed that when it regains administrative sovereignty over Hong Kong on July 1, 1997, China will re-organize the legislative institution and regional organizations of the Hong Kong Special Administrative Region.
+Entity: confirmed
+Answer: No.
+
+Sentence: The price was 3.6 billion yen-LRB - $25 million-RRB -.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art/music" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

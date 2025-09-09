@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event/sports_event" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Murray thrashed by Baghdatis August 15 2007 at 02:25 AM Cincinnati, Ohio-Britain's Andy Murray continued to struggle as he recovers from a wrist injury, losing 6-1, 6-2 on Tuesday to Marcos Baghdatis in the first round of the ATP Cincinnati Masters.
+Entity: Cincinnati
+Answer: Yes.
+
+Sentence: The SEC at the same time approved a similar but smaller basket product on the Chicago Board Options Exchange, where the minimum will be $1.7 million.
+Entity: SEC
+Answer: No.
+
+Sentence: The contract will provide for the manufacture and assembly of test articles, flight test units, and the operational upper stage elements to support NASA's flight manifest through 2016.
+Entity: 2016
+Answer: Yes.
+
+Sentence: If the debts are repaid, it could clear the way for Soviet bonds to be sold in the U.S..
+Entity: clear
+Answer: No.
+
+Sentence: The second is the presence of another person dictating to him while he executes..!!.
+Entity: presence
+Answer: Yes.
+
+Sentence: President Clinton is questioning the legitimacy of George W. Bush's election victory.
+Entity: Clinton
+Answer: No.
+
+Sentence: Since establishing the Straits Association, it has continuously pointed out such inhumane behavior to the Straits Foundation which seriously hurts feelings of compatriots of both sides and breaks the harmonious atmosphere on both sides, so as to attract the attention of relevant Taiwanese areas on compensating for losses, finding those responsible, and severely punishing the assailants.
+Entity: hurts
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event/sports_event" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

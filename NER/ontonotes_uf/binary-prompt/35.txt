@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/product" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Her robe glowed with the whiteness of snow in the sunshine and swept in majestic folds to the ground.
+Entity: robe
+Answer: Yes.
+
+Sentence: On another issue, Greeks were told how their national intelligence agency, the EYP, regularly monitored the telephone conversations of prominent figures, including key opposition politicians, journalists and PASOK cabinet members.
+Entity: journalists
+Answer: No.
+
+Sentence: General Motors Corp.'s Chevrolet division said it is offering $750 cash incentives on all 1990 models of its full-size Blazer and Suburban truck lines.
+Entity: Suburban
+Answer: Yes.
+
+Sentence: S did indeed buy herself a Yankees cap and a $200 million house and the next senator from New York will be Hillary Clinton.
+Entity: Hillary
+Answer: No.
+
+Sentence: Alice Chang, CEO of CyberLink Corporation, whose firm has become a much-coveted new entry in the stock market and has drawn international attention with audio-visual software like Power DVD and Talking Show, says: `` Talented people are at the root of knowledge. ``
+Entity: Power DVD
+Answer: Yes.
+
+Sentence: -LSB- wmkj2006 -RSB- I believe the regulation released by the State Administration of Radio Film and Television is appropriate and at the right time, in that it will help to prevent the degradation of the current TV programs, advocate good social atmosphere and right values among people, and establish a correct direction of public opinion.
+Entity: Television
+Answer: No.
+
+Sentence: He let people destroy them.
+Entity: He
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/product" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

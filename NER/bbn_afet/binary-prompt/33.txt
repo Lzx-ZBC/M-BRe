@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/PRODUCT/VEHICLE" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: San Antonio, Texas -- $575 million of electric and gas system revenue refunding bonds, Series 1989, 1989A and 1989B, tentatively priced by a First Boston Corp. group to yield from 6.15% in 1991 to 7.30% in 2009.
+Entity: electric
+Answer: Yes.
+
+Sentence: Mr. Broderick, the Massachusetts grower, says the `` big boss'' at a supermarket chain even rejected his Red Delicious recently because they were n't waxed and brushed for extra shine.
+Entity: big
+Answer: No.
+
+Sentence: Mr. Redford, like it or not, is like a braking system on a runaway truck, kind of slowing it down into control.
+Entity: truck
+Answer: Yes.
+
+Sentence: `` The big problem is that USX management has proved unwilling to devote the necessary resources and manpower to removing hazards and to safeguarding safety and health in the plants,'' said Linda Anku, OSHA regional administrator in Philadelphia.
+Entity: big
+Answer: No.
+
+Sentence: So despite the GM-Jaguar romance, analysts say Ford by last Friday had boosted its Jaguar holding to about 11% of the luxury auto maker's shares outstanding from 10.4% early last week.
+Entity: luxury
+Answer: Yes.
+
+Sentence: In principle, they will enable doctors to check the body's motor system the way an electrician tests a home's electrical circuits by running current through them.
+Entity: In
+Answer: No.
+
+Sentence: Not included on the most-likely-successor list are Joni Evans, recruited two years ago to be publisher of adult trade books for Random House, and Sonny Mehta, president of the prestigious Alfred A. Knopf unit.
+Entity: Random House
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/PRODUCT/VEHICLE" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

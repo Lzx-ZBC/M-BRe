@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/SUBSTANCE/FOOD" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But the bill still faces budget questions because it also is the vehicle for an estimated $3.1 billion in supplemental appropriations for law enforcement and anti-drug programs.
+Entity: supplemental
+Answer: Yes.
+
+Sentence: Warner has filed a $1 billion breach of contract suit in Los Angeles Superior Court against Sony and the Guber-Peters duo, who in turn are countersuing Warner for trying to interfere in Sony's acquisition of Columbia Pictures Entertainment Inc. and Guber Peters Entertainment Co. in two transactions valued at over $5 billion.
+Entity: Columbia
+Answer: No.
+
+Sentence: The heart of the business is the purchase of rice and other commodities, such as corn and coffee, from farmers in the south, paying with fertilizer, farm tools and other items.
+Entity: rice
+Answer: Yes.
+
+Sentence: A den mother raising some lovable teen models.
+Entity: den mother
+Answer: No.
+
+Sentence: But the broadcasts continued through the blacked-out night, with pictures of the sandwiched highway ganglion in Oakland and firefighting in the Marina district.
+Entity: sandwiched
+Answer: Yes.
+
+Sentence: Also, about 60% of pachinko parlor owners are Korean, many of whom maintain close ties with North or South Korean residents' organizations, and donations by such foreign groups are illegal in Japan.
+Entity: North
+Answer: No.
+
+Sentence: This is where Bell's patents went.
+Entity: Bell
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/SUBSTANCE/FOOD" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

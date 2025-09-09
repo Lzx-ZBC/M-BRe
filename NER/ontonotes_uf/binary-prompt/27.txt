@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/event" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Israeli and Palestinian negotiators will resume peace talks today after a three day delay.
+Entity: talks
+Answer: Yes.
+
+Sentence: American investigators are going to the scene but in Washington at the White House, the Pentagon and the State Department, US officials are already expressing suspicions that today's explosion was an act of terrorism.
+Entity: American
+Answer: No.
+
+Sentence: Stunned, they watched brokerage houses mark down price quotations on their junk holdings while being able to execute very few actual trades.
+Entity: execute
+Answer: Yes.
+
+Sentence: For example in the 1996 movie'' Tin Cup'' with Kevin Costner and Cheech Merrin, what might be an embarrassing experience in one golfer's past is for him a badge of honor.
+Entity: Cheech
+Answer: No.
+
+Sentence: After David defeated the army of Zobah, Rezon gathered some men and became the leader of a small army.
+Entity: defeated
+Answer: Yes.
+
+Sentence: The Ryder rental truck which carried Palm Beach County's ballots to Tallahassee is up for auction on the internet.
+Entity: The
+Answer: No.
+
+Sentence: Netanyahu's withdrawal leaves Likud leader Ariel Sharon as the only candidate running against Prime Minister Ehud Barak, but former Prime Minister Shimon Peres tells Israeli radio he's considering running.
+Entity: Israeli
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/event" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FAC" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: For example, when Detroit began talking about plastic-bodied cars, the American Iron and Steel Institute began a major lobbying effort to show auto makers how they could use steel more efficiently by simply redesigning how a car door is assembled.
+Entity: Detroit
+Answer: Yes.
+
+Sentence: Seabrook officials said the plant could receive a full-power license by the end of the year.
+Entity: officials
+Answer: No.
+
+Sentence: Seabrook officials said the plant could receive a full-power license by the end of the year.
+Entity: officials
+Answer: Yes.
+
+Sentence: In an open letter that will run today in the trade journal Automotive News, Ron Tonkin, president of the National Car Dealers Association, says dealers should cut their inventories to no more than half the level traditionally considered desirable.
+Entity: president
+Answer: No.
+
+Sentence: In an open letter that will run today in the trade journal Automotive News, Ron Tonkin, president of the National Car Dealers Association, says dealers should cut their inventories to no more than half the level traditionally considered desirable.
+Entity: president
+Answer: Yes.
+
+Sentence: Mr. Reupke was one of three executives on Reuters's eight-person executive committee who did n't also serve on the company's board of directors.
+Entity: directors
+Answer: No.
+
+Sentence: The Voice of America is a government agency that broadcasts news and views -- some might say propaganda -- in 43 languages to 130 million listeners around the world.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FAC" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

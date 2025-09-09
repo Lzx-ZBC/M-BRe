@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/hospital" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: This shows that when people encounter such kind of emergency, they have started to be able to face it with a very calm and pleasant state of mind.
+Entity: emergency
+Answer: Yes.
+
+Sentence: But will they be able to shut up and muzzle Harry Reid and Nancy Pelosi?
+Entity: Harry Reid
+Answer: No.
+
+Sentence: However, this time, through the execution of emergency contingency plans by Beijing Municipality this time, ah, it should be said that the response speed of the different departments of Beijing Municipality, as well as the integrated emergency mechanisms, played a great role.
+Entity: emergency
+Answer: Yes.
+
+Sentence: The producers, he says, did a good job of depicting someone `` who had done so much, but who was also a manic-depressive.
+Entity: job
+Answer: No.
+
+Sentence: The State Council has proposed a public emergency contingency plan, called One Plan, Three Systems.
+Entity: emergency
+Answer: Yes.
+
+Sentence: Constant terror was needed to intimidate people and force them to accept, out of fear, the absolute rule of the Chinese Communist Party.
+Entity: fear
+Answer: No.
+
+Sentence: Up till October of last year, Finland's export volume to major trading partners, such as Hong Kong, China, Indonesia, Thailand, Singapore, Malaysia etc., reached 10.7 billion Finland Marks-LRB-1 Finland Mark approximates 0.19 US dollar-RRB -, which was equivalent to gross exports of the whole year of 1996.
+Entity: Malaysia
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/hospital" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

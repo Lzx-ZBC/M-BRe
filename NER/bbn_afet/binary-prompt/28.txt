@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LOCATION/RIVER" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The Army Corps is cutting the flow of the Missouri River about two weeks earlier than normal because of low water levels in the reservoirs that feed it.
+Entity: Missouri River
+Answer: Yes.
+
+Sentence: As previously reported, a member of the Philippines' House of Representatives has sued to stop the plant.
+Entity: member
+Answer: No.
+
+Sentence: `` Aerospace orders are very good,'' Mr. Cole says.
+Entity: Cole
+Answer: Yes.
+
+Sentence: A big bankruptcy-court case might tarnish KKR's name, and provide new fuel for critics of LBOs in Washington and elsewhere.
+Entity: big
+Answer: No.
+
+Sentence: `` At this point, the minimill capacity wo n't make a great dent in the integrated market, but it does challenge them to develop new markets,'' says James McCall, vice president, materials, at Battelle, a technology and management-research giant based in Columbus, Ohio.
+Entity: Ohio
+Answer: Yes.
+
+Sentence: Finally, flouting the BPCA's wishes to continue the popular two-mile riverside Esplanade, prized for its expansive views of New York Harbor, the Statue of Liberty and Ellis Island, Ms. Bartlett threw up yet another wall, this time concrete, this time 10 feet tall.
+Entity: riverside
+Answer: No.
+
+Sentence: The NRC rejected Mr. Shannon's argument that Public Service Co. of New Hampshire, which owns the largest share of Seabrook, and 11 other owners are financially unable to guarantee the plant's safe operation.
+Entity: operation
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LOCATION/RIVER" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

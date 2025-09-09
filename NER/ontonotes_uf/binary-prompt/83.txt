@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/product/mobile_phone" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Its power was to kindle the hearts of the people's -LSB- sic-RSB - & quot; David L. Webb & quot; & lt; david.l.w
+Entity: kindle
+Answer: Yes.
+
+Sentence: This was in contrast with the society's meeting last May, at the height of the controversy, when more than 1,500 scientists, along with scores of reporters and TV crews, crowded into a Los Angeles hotel ballroom for a tumultuous special night session on the subject.
+Entity: reporters
+Answer: No.
+
+Sentence: And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them, and there shall not be any remaining of the house of Esau, for Jehovah has spoken it.
+Entity: kindle
+Answer: Yes.
+
+Sentence: So just because every time your uncle goes to the supermarket he buys hog head meat does n't mean that we should immediately assume that any theory that does not predict people going to the supermarket will buy hog head meat is wrong.
+Entity: meat
+Answer: No.
+
+Sentence: If iPhone has less than 30% of the world mobile phone market, then you turn over your iPhone to me, I smash it with a hammer, and then you will eat it.
+Entity: iPhone
+Answer: Yes.
+
+Sentence: For those who prefer the old Postville, Mayor John Hyman has a simple answer.
+Entity: Mayor
+Answer: No.
+
+Sentence: `` If you look at 75 years worth of investment history -- including the Great Depression and every bear market since -- stocks have outperformed almost everything an individual could have owned by a long shot,'' says Barry Berlin, vice president at First Wachovia Capital Management.
+Entity: Great Depression
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/product/mobile_phone" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

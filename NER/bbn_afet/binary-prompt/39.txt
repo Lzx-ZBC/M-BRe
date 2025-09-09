@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LOCATION/CONTINENT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Ford said yesterday it will halt imports of the Merkur Scorpio, a $28,000 luxury sedan built by Ford of Europe in West Germany.
+Entity: Europe
+Answer: Yes.
+
+Sentence: In response, Mr. Peters says, Mr. Ross referred to his colleagues at Warner with an `` obscenity'' and said: `` Tell them that they do n't have a job.
+Entity: Warner
+Answer: No.
+
+Sentence: It said that volume makes it the largest supplier of original TV programming in Europe.
+Entity: Europe
+Answer: Yes.
+
+Sentence: The offering, Series 101, is backed by Freddie Mac 9% securities.
+Entity: Series
+Answer: No.
+
+Sentence: The machines will cost around $16,250 on average in Europe.
+Entity: Europe
+Answer: Yes.
+
+Sentence: Preston G. Foster Birmingham, Ala.
+Entity: Ala
+Answer: No.
+
+Sentence: Burmah Oil PLC, a British independent oil and specialty-chemicals marketing concern, said SHV Holdings N.V. has built up a 7.5% stake in the company.
+Entity: Burmah
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LOCATION/CONTINENT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

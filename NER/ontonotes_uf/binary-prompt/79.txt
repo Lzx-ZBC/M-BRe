@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/language/programming_language" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: So of course, a moron might pick that up and run with it, extrapolating that if animated gif smilies are hated in WOS, then all text rendered smilies must be hated in CSS...
+Entity: CSS
+Answer: Yes.
+
+Sentence: Praise God for sending you to meet me.
+Entity: God
+Answer: No.
+
+Sentence: Israeli counterterrorism officials provided the State Department with a 20-page list of recent terrorist incidents they attribute directly to forces controlled by PLO Chairman Yasser Arafat.
+Entity: attribute
+Answer: Yes.
+
+Sentence: -LSB- dasanicool -RSB- Speaking about South Koreans who discriminate against Chinese people, Lee Byang-yul said: `` They do n't understand China.
+Entity: South Koreans
+Answer: No.
+
+Sentence: But they attribute much of the weakness to customer inventory reductions.
+Entity: attribute
+Answer: Yes.
+
+Sentence: Merrill Lynch estimates that fewer than 10 financial institutions currently issue zero-coupon CDs.
+Entity: Merrill
+Answer: No.
+
+Sentence: As the Scriptures say, `` Who can know what is on the Lord's mind?
+Entity: Who
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/language/programming_language" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

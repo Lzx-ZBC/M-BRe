@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/GOVERNMENT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Lockheed will build additional structures and perform final assembly of the tandem-seat trainer at its Marietta, Ga., plant should the Air Force order the craft.
+Entity: Air Force
+Answer: Yes.
+
+Sentence: At least 10 states are resisting Drexel Burnham Lambert Inc.'s nationwide effort to settle its legal troubles, and some might instead try to revoke the firm's license to sell securities within their borders.
+Entity: Drexel
+Answer: No.
+
+Sentence: `` We stand for peace today and we will stand for peace tomorrow,'' said Walter Sisulu, the ANC's former secretary general who, along with five of his colleagues, served 26 years in prison before being released two weeks ago.
+Entity: served
+Answer: Yes.
+
+Sentence: But against that combined increase of 12% in students chosen by academic criteria, the plan eliminates a large category in which admissions now are based on grades, test scores and `` supplemental points'' for factors such as high-school curriculum, English-language proficiency and an essay.
+Entity: supplemental
+Answer: No.
+
+Sentence: But the EC reacted defiantly, arguing that the proposal's main aim is to destroy the Common Agricultural Policy, the EC's $28 billion-a-year price support program.
+Entity: EC
+Answer: Yes.
+
+Sentence: Shipments of its Lemans to GM's Pontiac division are off about 65% from a year ago, versus a 44% decline for Hyundai and an 18% increase for Kia.
+Entity: GM
+Answer: No.
+
+Sentence: From his new, million-dollar-a-year perch on Wall Street as a managing director of Wertheim Schroder & amp; Co., Mr. Coelho reports that many of his former colleagues have contacted him to find out how they, too, can pursue investment banking careers.
+Entity: Schroder
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/GOVERNMENT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

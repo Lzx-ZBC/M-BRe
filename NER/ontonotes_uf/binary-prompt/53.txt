@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/airport" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: When it opened in 1939, Shannon was the first landfall in Europe for thirsty airplanes flying from North America.
+Entity: Shannon
+Answer: Yes.
+
+Sentence: Do you want me to, well. Give him the keys and
+Entity: Do
+Answer: No.
+
+Sentence: Tuesday night, thousands were diverted to other airports and had to wait a day to resume travel.
+Entity: airports
+Answer: Yes.
+
+Sentence: In Part 2 of his historical excavation of the life and world of Donald Rumsfeld-LRB-not to speak of the worlds of both President Bushes, the neocons, the U.S. military, the GOP, and an indolent media-RRB -, Roger Morris, already deep in that hole, just keeps digging away.
+Entity: Donald Rumsfeld-LRB-not
+Answer: No.
+
+Sentence: -LSB- jilian -RSB- As a result for the F-22, which has `` impressive `` stealth capabilities against airborne phased-array radar, but `` greatly reduced `` stealth capabilities against China's land-based high power phased-array radar and high power long-wavelength radar; -LSB- jilian -RSB- given that they will not be supported by satellite intelligence, will not be supported by EWR aircraft intelligence, -LSB- jilian -RSB- given that the F-22 will be forced to turn on its own airborne radar to enter combat; -LSB- jilian -RSB- given that all the airfields of the F-15 and F-16 squadrons of the `` US and Japan `` will be within the range of China's long-range armaments; -LSB- jilian -RSB- faced with a large fleet of fighter planes made up of fighters such as the J-10s and J-11s with Beyond Visual Range air and sea strike capabilities, with land-based radar picking targets, carrying `` pl-12 `` medium-range guided air-to-air missiles, highly maneuverable and with a large enough combat radius; as well as the J-8d and f, with their good high-altitude and high-speed features; how much real chance of victory is there?
+Entity: EWR
+Answer: Yes.
+
+Sentence: In addition, currently one of its reporters is still detained by the US at the Guantanamo military base.
+Entity: In
+Answer: No.
+
+Sentence: -LSB- wmkj2006 -RSB- Looking back on some excellent TV dramas shown in recent years, for example: military TV dramas including Long March, the Eight Route Army and Drawing Sword, and modern-theme TV dramas that reflect rural reform, kinship and friendship including Hometown, My Family Tree and Mother, are much popular among viewers.
+Entity: My Family
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/airport" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

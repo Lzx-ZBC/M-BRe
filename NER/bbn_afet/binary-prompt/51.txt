@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/EDUCATIONAL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: They are: `` A Payroll to Meet: A Story of Greed, Corruption and Football at SMU'' (Macmillan, 221 pages, $18.95) by David Whitford; `` Big Red Confidential: Inside Nebraska Football'' (Contemporary, 231 pages, $17.95) by Armen Keteyian; and `` Never Too Young to Die: The Death of Len Bias'' (Pantheon, 252 pages, $18.95) by Lewis Cole.
+Entity: SMU
+Answer: Yes.
+
+Sentence: `` It now looks like database IV Version 1.1 is n't going to be { widely } available until the first quarter of 1990,'' said David Bayer, an analyst with Montgomery Securities in San Francisco.
+Entity: David
+Answer: No.
+
+Sentence: Uneasiness about Wall Street was cited in several markets.
+Entity: cited
+Answer: Yes.
+
+Sentence: When Dreyfus started the first advertising-backed retail fund in February 1974, it was priced at $10 a share (and reached $1 billion in assets in one year.)
+Entity: February 1974
+Answer: No.
+
+Sentence: The son of a physicist, Mr. Hahn skipped first grade because his reading ability was so far above his classmates. Moving rapidly through school, he graduated Phi Beta Kappa from the University of Kentucky at age 18, after spending only 2 years in college.
+Entity: Phi Beta Kappa
+Answer: Yes.
+
+Sentence: After the discarded mural was found outside the school by a concerned Stamford graduate, it eventually was turned over to Hiram Hoelzer, a professional art restorer.
+Entity: Hiram
+Answer: No.
+
+Sentence: According to industry analysts, Chrysler plants most likely to close are the St. Louis No. 1 facility, which builds Chrysler LeBaron and Dodge Daytona models; the Toledo, Ohio, Jeep plant, which dates back to the early 1900s; and two Canadian plants that build the Jeep Wrangler and Chrysler's full-sized vans.
+Entity: According
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/EDUCATIONAL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

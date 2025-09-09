@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/WORK_OF_ART/SONG" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: The original is a comedy about Alceste, a man who sees falseness and vanity in everyone except himself.
+Entity: Alceste
+Answer: Yes.
+
+Sentence: But the editorial, by Jan Stjernsward of the World Health Organization, notes that tobacco consumption and lung-cancer mortality rates are rising in developing countries.
+Entity: World Health Organization
+Answer: No.
+
+Sentence: If the LDP, as currently composed, ca n't make the transformation, then it should split into two parties.
+Entity: If
+Answer: Yes.
+
+Sentence: The Treasury marked up its forecast by $17 million in July, but that proved to be about $5 billion too optimistic.
+Entity: Treasury
+Answer: No.
+
+Sentence: If so, the damages could be tripled.
+Entity: If
+Answer: Yes.
+
+Sentence: `` Eight years I've had it.
+Entity: Eight
+Answer: No.
+
+Sentence: The Fed's efforts at secrecy were partly foiled Sunday morning, when both the New York Times and the Washington Post carried stories quoting a senior Fed official saying the central bank was prepared to pour cash into the banking system Monday morning.
+Entity: New York
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/WORK_OF_ART/SONG" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

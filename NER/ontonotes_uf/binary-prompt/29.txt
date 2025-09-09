@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/health" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But the people sent men after Amaziah to Lachish, and they killed him there.
+Entity: killed
+Answer: Yes.
+
+Sentence: As early as the Period from the Shang Dynasty to the Warring States, Chongqing was the capital of the Ba State, from the Qin Dynasty to the Eastern Han Dynasty it became Ba County, in the Sui and Tang Dynasties it was the Yu State, and in the Song Dynasty became Chongqing Fu-LRB-and up to now has a history of more than 800 years-RRB -.
+Entity: Sui
+Answer: No.
+
+Sentence: And% um Absolutely. Every now did you supplement nursing with bottles at all or did n't you?
+Entity: supplement
+Answer: Yes.
+
+Sentence: During the `` eighth five-year plan `` period-LRB-1991-1995-RRB -, Fujian Province village-and-town enterprises turned over a total of 18.56 billion yuan RMB in taxes, with completed export delivery volume of 105.5 billion yuan RMB.
+Entity: total
+Answer: No.
+
+Sentence: Ray White in Utah and Walter Bodmer, a researcher in Great Britain, are close to finding another gene involved with some types of colon cancer, thought to be on chromosome 5.
+Entity: cancer
+Answer: Yes.
+
+Sentence: The vote in Ankara was boycotted by opposition politicians, who vowed to oust Ozal.
+Entity: The
+Answer: No.
+
+Sentence: After saying he was sleepy, he just hung up.
+Entity: After
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/health" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

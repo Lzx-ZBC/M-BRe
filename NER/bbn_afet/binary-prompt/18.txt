@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LOCATION/LAKE_SEA_OCEAN" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` Champ'' Chandler's last pitch, apparently, was a screwball.
+Entity: Champ
+Answer: Yes.
+
+Sentence: Aer Rianta is talking about similar joint ventures in Tashkent and in Sochi, a Black Sea resort, and even has a computer-assembly project cooking with the Georgian city of Tbilisi.
+Entity: Georgian
+Answer: No.
+
+Sentence: Thomas G. Dahlen, Big Bear's executive vice president, said the chain is still reviewing its product list to avoid such problems.
+Entity: Big Bear
+Answer: Yes.
+
+Sentence: Results included a $37 million gain from the sale of rights from Chevron's investment in Amax Inc., and a loss of $30 million from the sale of California oil and gas properties.
+Entity: Chevron
+Answer: No.
+
+Sentence: Some people call it `` The Mistake on the Lake'' -- Lake Erie, that is.
+Entity: Lake Erie
+Answer: Yes.
+
+Sentence: Separately, several Saatchi agency clients said they believe the company's management shakeup will have little affect on them.
+Entity: Saatchi
+Answer: No.
+
+Sentence: Over 50 witnesses, mostly students, were interviewed.
+Entity: students
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LOCATION/LAKE_SEA_OCEAN" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

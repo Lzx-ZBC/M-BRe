@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/sports_facility" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Roads and railways were used as links to connect all of North China into a solid, widespread siege, in order to strangle the Eighth Route Army and its base areas in this net.
+Entity: net
+Answer: Yes.
+
+Sentence: So far, Mr. Greenspan's cautious approach to policy has served both him and the nation well.
+Entity: Greenspan
+Answer: No.
+
+Sentence: You will never see in the near future a daughter or a wife or even a sister of a writer or a cultured man leading a grandstand by cheering for her team.
+Entity: grandstand
+Answer: Yes.
+
+Sentence: Frank Darling and Lansing Bennett were stuck in morning traffic when they were shot to death in 1993.
+Entity: Bennett
+Answer: No.
+
+Sentence: He barely edges out Ruth-LRB -.342 -RRB-, and Williams had the advantage of playing half his games in Fenway after it became a hitters park. Throw in his career OBP, and he's clearly the best hitter to ever play the game.
+Entity: Fenway
+Answer: Yes.
+
+Sentence: The agency may not have much choice: A congressional bill has been introduced that would force the agency to limit flight attendant duty time to 14 hours on U.S. flights and 16 hours on international trips.
+Entity: The
+Answer: No.
+
+Sentence: In addition to servings of chicken, duck, fish and pork, they always have some of the specialties of her husband's home region, Anhui Province in mainland China, including yuanzi meatballs-LRB-minced pork blended with chopped spring onion, ginger, garlic and rice noodles, rolled in cornstarch flour and deep-fried-RRB -.
+Entity: cornstarch
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/sports_facility" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

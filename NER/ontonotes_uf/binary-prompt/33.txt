@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/legal" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Every fourteen year old this would be his dream.
+Entity: fourteen
+Answer: Yes.
+
+Sentence: The main capital-gains tax plan in the Senate is n't winning support from Democrats who favor a reduction.
+Entity: Senate
+Answer: No.
+
+Sentence: and we are working very hard to create these conditions in some of these provinces and some of the regions as well as districts.
+Entity: create
+Answer: Yes.
+
+Sentence: It is the same way with what God has done.
+Entity: It
+Answer: No.
+
+Sentence: Tieying Li said that housing system reform needs to focus on establishing new mechanisms of benefit allotment monetization, and needs to accelerate the process of transforming housing allotments and tangibles to payments.
+Entity: allotment
+Answer: Yes.
+
+Sentence: The Illinois Legislature narrowly passed a parental-leave bill, which Gov. James Thompson vetoed, and Iowa and Tennessee amended laws to require that employers pay for breast-cancer exams.
+Entity: Iowa
+Answer: No.
+
+Sentence: They made Peter and John stand before all the people.
+Entity: John
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/legal" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

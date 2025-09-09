@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/ORGANIZATION/HOSPITAL" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Everything looked good as neurosurgeon Walter Levy and colleagues carefully cut away a woman's spinal tumor at the Cleveland Clinic in 1978.
+Entity: Cleveland Clinic
+Answer: Yes.
+
+Sentence: Poland is the second Communist nation to recognize the Seoul government; South Korea established diplomatic relations with Hungary in February 1989.
+Entity: Seoul
+Answer: No.
+
+Sentence: Elsewhere in the group, General Re rose 2 to 86, American International Group gained 3 to 102, Aetna Life & amp; Casualty added 2 to 59 and Cigna advanced 7\/8 to 62.
+Entity: Casualty
+Answer: Yes.
+
+Sentence: Hughes Aircraft Co., a unit of General Motors Corp., said it agreed to purchase the Electro-Optics Technology division of Perkin-Elmer Corp.
+Entity: Perkin-Elmer
+Answer: No.
+
+Sentence: Everything looked good as neurosurgeon Walter Levy and colleagues carefully cut away a woman's spinal tumor at the Cleveland Clinic in 1978.
+Entity: Cleveland Clinic
+Answer: Yes.
+
+Sentence: Dr. Leigh Thompson, a Lilly group vice president, said the company's clinical trials of both its animal and human-based insulins indicated no difference in the level of hypoglycemia between users of either product.
+Entity: insulins
+Answer: No.
+
+Sentence: Over a cup of coffee, Mr. Stone told his story.
+Entity: coffee
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/ORGANIZATION/HOSPITAL" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

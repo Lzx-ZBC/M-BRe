@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FACILITY/HIGHWAY_STREET" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: A security guard at a cargo terminal, he wears a Sons of Italy jacket and cap celebrating `` The US 1 Band.''
+Entity: US 1
+Answer: Yes.
+
+Sentence: In a statement, Equitec Chairman Richard L. Saalfeld said the transfer will benefit both the company and investors in the 12 limited partnerships included in the proposed rollup.
+Entity: Saalfeld
+Answer: No.
+
+Sentence: From what he saw on television, Mr. Chesley points out that Interstate 880, which collapsed and killed more than 200 commuters, suffered serious damage while surrounding buildings appeared to sustain no damage whatsoever.
+Entity: Interstate 880
+Answer: Yes.
+
+Sentence: The announcement said the acquisition should be completed by December after a definitive agreement is completed and regulatory approval is received.
+Entity: The
+Answer: No.
+
+Sentence: All major roadways except Interstate 880, known as the Nimitz Freeway, and the Bay Bridge were open by 1 p.m. yesterday.
+Entity: Nimitz Freeway
+Answer: Yes.
+
+Sentence: From Italy there is Angelo Gaja Barbaresco at $125 a bottle, Piero Antinori's La Solaia, a $90 Cabernet from Tuscany, and Biondi-Santi Brunello at $98.
+Entity: Italy
+Answer: No.
+
+Sentence: It was n't clear how the ownership would stack up under the new plan, but employees would keep more than 50%.
+Entity: It
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FACILITY/HIGHWAY_STREET" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

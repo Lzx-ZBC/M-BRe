@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/health/treatment" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But the bill still faces budget questions because it also is the vehicle for an estimated $3.1 billion in supplemental appropriations for law enforcement and anti-drug programs.
+Entity: supplemental
+Answer: Yes.
+
+Sentence: -LSB- dasanicool -RSB- In the city of Qingdao, the sense of superiority that South Koreans sometimes exhibit has also caused some citizens to be displeased.
+Entity: Koreans
+Answer: No.
+
+Sentence: Copper and crude oil reacted sharply to the concern that a crash yesterday could have a potentially devastating effect on the economy.
+Entity: oil
+Answer: Yes.
+
+Sentence: The woman came over to Saul and saw how afraid he was.
+Entity: Saul
+Answer: No.
+
+Sentence: In 1966, on route to a re-election rout of Democrat Frank O'Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, `` If you want to keep the crime rates high, O'Connor is your man.''
+Entity: high
+Answer: Yes.
+
+Sentence: Josiah removed the Asherah pole from the Lord's Temple.
+Entity: removed
+Answer: No.
+
+Sentence: As early as the Period from the Shang Dynasty to the Warring States, Chongqing was the capital of the Ba State, from the Qin Dynasty to the Eastern Han Dynasty it became Ba County, in the Sui and Tang Dynasties it was the Yu State, and in the Song Dynasty became Chongqing Fu-LRB-and up to now has a history of more than 800 years-RRB -.
+Entity: Eastern Han Dynasty
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/health/treatment" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

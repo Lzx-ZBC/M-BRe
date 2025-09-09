@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/art/writing" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: All the great things that Jotham did are written in the book, The History of the Kings of Judah.
+Entity: Kings
+Answer: Yes.
+
+Sentence: we're supposed to be race color blind
+Entity: color blind
+Answer: No.
+
+Sentence: The jokes are n't just on the Japanese, though.
+Entity: The
+Answer: Yes.
+
+Sentence: Okay we're going to go back and look at Hillary's numbers which I find fascinating.
+Entity: Hillary
+Answer: No.
+
+Sentence: It's why the Dow has been fairly range bound.
+Entity: It
+Answer: Yes.
+
+Sentence: `` People are very concerned about who is going to step up to the plate and buy municipal bonds in the absence of institutional buyers.''
+Entity: People
+Answer: No.
+
+Sentence: When he arrives there, this great master becomes more like a youthful acolyte.
+Entity: great
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/art/writing" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

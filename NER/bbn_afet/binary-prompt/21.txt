@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/LOCATION/REGION" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: If the weather allowed farmers to work in their fields over the weekend, many Midwest grain elevators will probably sell futures contracts today at the Chicago Board of Trade in order to hedge their weekend purchases from farmers.
+Entity: Midwest
+Answer: Yes.
+
+Sentence: The National Market System of the Nasdaq over-the-counter market listed shares of one company.
+Entity: The National
+Answer: No.
+
+Sentence: The sole exceptions are an estimated 30 flights of six hours or more beginning or ending in Hawaii and Alaska.
+Entity: Hawaii
+Answer: Yes.
+
+Sentence: But Sun Microsystems slipped 1\/4 to 17.
+Entity: Sun Microsystems
+Answer: No.
+
+Sentence: Morgan received $2 million of interest payments on its medium and long-term Brazilian loans; had they been accruing interest, net interest income would have been $35 million higher in the quarter, Morgan said.
+Entity: Brazilian
+Answer: Yes.
+
+Sentence: Ms. Garratt sued the Dallas apparel maker earlier this year, charging that Jerell developed and marketed clothing lines fashioned after her designs, in violation of their contract.
+Entity: Dallas
+Answer: No.
+
+Sentence: Delta has benefited more than other carriers from the weakness of Eastern Airlines, which shares the Atlanta hub.
+Entity: Eastern Airlines
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/LOCATION/REGION" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

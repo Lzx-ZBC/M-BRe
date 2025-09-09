@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/company/news" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: CNN has learned that the crew of the `` USS Cole'' was not briefed on the seriousness of the threat in Yemen, nor warned to be on guard for possible terrorist attack the day the warship was bombed.
+Entity: CNN
+Answer: Yes.
+
+Sentence: He and his mother rarely went shopping together or discussed how to evaluate the quality of clothes.
+Entity: He
+Answer: No.
+
+Sentence: As Elizabeth Kristol wrote in the New York Times just before the Mason donnybrook, `` Perhaps intolerance would not boil over with such intensity if honest differences were allowed to simmer.''
+Entity: New York
+Answer: Yes.
+
+Sentence: One analyst says that if the fourteen marines from Ohio killed today had been ambushed last week the election results might have been reversed.
+Entity: election
+Answer: No.
+
+Sentence: In today's Daily News, a 60-year-old woman acknowledges she was the 19-year-old White House intern who slept with JFK.
+Entity: Daily News
+Answer: Yes.
+
+Sentence: Westinghouse also jointly will bid on projects with Misubishi, giving it an edge in developing Asian markets.
+Entity: Westinghouse
+Answer: No.
+
+Sentence: Nonetheless, Senate Democrats are organizing a roll of supporting `` associations,'' `` societies'' and `` councils,'' some of which may hope to receive the paid `` volunteers.''
+Entity: associations
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/company/news" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

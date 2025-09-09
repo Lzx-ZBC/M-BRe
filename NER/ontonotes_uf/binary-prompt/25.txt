@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/body_part" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Before the war, the gap between China and Japan was far greater than mere numbers.
+Entity: greater
+Answer: Yes.
+
+Sentence: yeah
+Entity: yeah
+Answer: No.
+
+Sentence: Did you crack somebody's head open?
+Entity: head
+Answer: Yes.
+
+Sentence: The scale of the adventure that awaited us must have been evident to you as we started out on the trip, since you took 2 beacon sparkles as emergency rations, instead of just 1.
+Entity: The
+Answer: No.
+
+Sentence: The seven heads on the beast are the seven hills where the woman sits.
+Entity: heads
+Answer: Yes.
+
+Sentence: He encouraged them all, saying, `` Always be faithful to the Lord.
+Entity: Always
+Answer: No.
+
+Sentence: Ay Today, Wendao, so when you mentioned court, I thought of this kind of controversy over the Qiu Xinghua court case.
+Entity: Ay
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/body_part" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

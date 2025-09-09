@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/living_thing" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: However, this find of archaeopteryx fossils are from a much earlier age, lower in stratus and more primitive in features than previously discovered archaeopteryx.
+Entity: archaeopteryx
+Answer: Yes.
+
+Sentence: He's trying to please everybody.
+Entity: He
+Answer: No.
+
+Sentence: Despite its great fame, deprived of the company of its own species the most celebrated of the giant Taiwan red cypresses of Mt. Ali finally succumbed to lightning and fire.
+Entity: red
+Answer: Yes.
+
+Sentence: said Corante, who is well-known and respected in the area where the Chupacabra feasted on blood and spread fear among the population. & quot;
+Entity: fear
+Answer: No.
+
+Sentence: And all the sick people who touched his coat were healed.
+Entity: people
+Answer: Yes.
+
+Sentence: Some of the people who had known Saul before saw him prophesying with the prophets.
+Entity: Some
+Answer: No.
+
+Sentence: Nobody can estimate the toll, but John Gargan, a Tampa, Fla., planner and head of one trade group, the International Association of Registered Financial Planners, thinks the danger to investors from incompetence is `` humongous,'' far greater than that from crookery.
+Entity: Financial
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/living_thing" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

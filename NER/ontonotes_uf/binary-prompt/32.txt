@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/language" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It is entrenched in the country's colonial bonds to the U.S., in Philippine class structure, in the regional loyalties of its people and in its island geography.
+Entity: Philippine
+Answer: Yes.
+
+Sentence: In particular, bin Laden has chosen it as his exclusive information release agency, endowing it with a unique advantage.
+Entity: bin Laden
+Answer: No.
+
+Sentence: It will begin its five-week trip home on the deck of the rescue ship `` Blue Marlin'' today.
+Entity: It
+Answer: Yes.
+
+Sentence: We find numerous satellite channels financed by Islamic countries, and we also find numerous princes and kings and presidents who spend large amounts of money on their vacations.
+Entity: presidents
+Answer: No.
+
+Sentence: It's been a day of further blows for Slobodan Milosevic who only last Friday spoke of plans to rebuild his party and stage a political comeback.
+Entity: It
+Answer: Yes.
+
+Sentence: The Rochester, N.Y., photographic giant recently began marketing T-Max 3200, one of the fastest and most sensitive monochrome films.
+Entity: The
+Answer: No.
+
+Sentence: The battle of the editorials reflects what many political analysts predict will be one of the closest Presidential races in decades.
+Entity: The
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/language" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

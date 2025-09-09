@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/structure/government" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Perrier, sold by Perrier Group of America, a unit of Source Perrier S.A. of Paris, and Evian, sold by a U.S. unit BSN of France, are distributed to urban areas nationally, but are less available in rural communities.
+Entity: America
+Answer: Yes.
+
+Sentence: In 1966, on route to a re-election rout of Democrat Frank O'Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, `` If you want to keep the crime rates high, O'Connor is your man.''
+Entity: Frank O'Connor
+Answer: No.
+
+Sentence: Paul and Silas went through the countries of Syria and Cilicia, helping the churches grow stronger.
+Entity: Syria
+Answer: Yes.
+
+Sentence: It's very good news for us.
+Entity: It
+Answer: No.
+
+Sentence: Odd pairings tonight at the White House when all the nation's living presidents except Reagan were together at the White House celebrating the 200th anniversary of the grand house.
+Entity: nation
+Answer: Yes.
+
+Sentence: Analysts agree that the price drop should especially benefit the two big tissue makers, Scott Paper and Kimberly-Clark.
+Entity: price drop
+Answer: No.
+
+Sentence: To those who attacked them, we say, You will not find a safe harbor, we will find you, and justice will prevail.
+Entity: To
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/structure/government" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/CONTACT_INFO/ADDRESS" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: It also opened the door to furs made in South Korea, China, Hong Kong and other countries.
+Entity: Hong Kong
+Answer: Yes.
+
+Sentence: Real-estate interests, for example, are protesting an omission in President Bush's capital-gains proposal: It does n't include real-estate gains.
+Entity: It
+Answer: No.
+
+Sentence: Real-estate interests, for example, are protesting an omission in President Bush's capital-gains proposal: It does n't include real-estate gains.
+Entity: It
+Answer: Yes.
+
+Sentence: London's blue-chip stock index turned up just before 8 a.m. New York time, sending an encouraging message to Wall Street.
+Entity: New York
+Answer: No.
+
+Sentence: London's blue-chip stock index turned up just before 8 a.m. New York time, sending an encouraging message to Wall Street.
+Entity: New York
+Answer: Yes.
+
+Sentence: The U.S. Department of Agriculture estimates that this year Americans will eat about 40% more fresh apples per capita than the Japanese.
+Entity: capita
+Answer: No.
+
+Sentence: Created by an artist who flaunts her ignorance of plants and gardens, South Gardens, as now planned, will die from congestive garden design.
+Entity: congestive
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/CONTACT_INFO/ADDRESS" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

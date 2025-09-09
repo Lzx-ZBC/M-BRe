@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/other/heritage" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: After chasing the Philistines, the Israelites came back to the Philistine camp and took many things from that camp.
+Entity: Philistine
+Answer: Yes.
+
+Sentence: This man died, and his wife cried out to Elisha, `` My husband was like a servant to you.
+Entity: This
+Answer: No.
+
+Sentence: Speaking at the same time about an Iranian role in the financing and support of the war of genocide against the Sunnis. `` Fadil ``, a commander in the Mahdi Army tells how he had followed three Arab Sunni men for a period of some weeks and detained them when they were crossing the Karada bridge, after having informed an Iraqi army road block close to the area that he was pursuing `` terrorists ``, then attacked the car of the group in question.
+Entity: Iranian
+Answer: Yes.
+
+Sentence: He said to Amnon, `` Every day you look thinner and thinner.
+Entity: He
+Answer: No.
+
+Sentence: We'll talk to a Palestinian legal representative, their legal adviser when we continue from New York.
+Entity: Palestinian
+Answer: Yes.
+
+Sentence: Officials familiar with the meeting said Mr. Bush cited the policy as an example of the sort of congressional requirements the administration contends contribute to the failure of such covert actions as this month's futile effort to oust Panamanian dictator Manuel Noriega.
+Entity: Bush
+Answer: No.
+
+Sentence: In a ruling by the Fifth U.S. Circuit Court of Appeals in New Orleans, Mr. Gaubert received the go-ahead to pursue a claim against the Federal Home Loan Bank Board and the Federal Home Loan Bank of Dallas for losses he suffered when the Bank Board closed the Independent American Savings Association of Irving, Texas.
+Entity: go-ahead
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/other/heritage" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

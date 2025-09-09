@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/CONTACT_INFO/url" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: `` Where's the bid?'' asked Pierre Panet-Raymond, an analyst and broker with Toronto securities dealer McDermid St. Lawrence Ltd.
+Entity: Where
+Answer: Yes.
+
+Sentence: `` The gyrations in the British government'' add political uncertainty on top of high inflation and a ragged stock market, says John Hoffman, assistant director of research at Smith Barney, Harris Upham & amp; Co.
+Entity: The
+Answer: No.
+
+Sentence: Campbell Soup, for one, is furious its Souper Combo microwave product was chastised in the premiere `` In the Dumpster'' column.
+Entity: In
+Answer: Yes.
+
+Sentence: But neither Matra nor GEC -- unrelated to Stamford, Conn.-based General Electric Co. -- are sitting quietly by as their competitors join forces.
+Entity: Stamford
+Answer: No.
+
+Sentence: It is inhumane to imply that a poor, unemployed woman can not receive immediate relief for her family at fair prices because she does not have as much to protect as a rich family.
+Entity: It
+Answer: Yes.
+
+Sentence: But when agencies like the NIH circulate guidelines, they've often already formulated policy, veteran scientists say.
+Entity: veteran
+Answer: No.
+
+Sentence: But as the day ended in a frantic Wall Street-inspired rally, the City breathed a sigh of relief.
+Entity: City
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/CONTACT_INFO/url" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

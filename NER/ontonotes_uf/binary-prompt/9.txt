@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/location/geograpy" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Since the hurricane, Midway Airlines Inc. and American Airlines, a unit of AMR Corp., trimmed their one-way fares to the Virgin Islands to $109 from prices that were at times double that before the storm.
+Entity: Virgin Islands
+Answer: Yes.
+
+Sentence: The Chinese government, especially the Xinjiang Uigur Autonomous Region, would endeavor to develop cooperation with Kirghizia in various fields such as economy and trade, etc.
+Entity: The
+Answer: No.
+
+Sentence: -LSB- jeffery7373 -RSB- Among many problems related to the reunification of the motherland, Mongolia has low priority, far less important than Taiwan, Diaoyu Island and South Sea.
+Entity: Diaoyu Island
+Answer: Yes.
+
+Sentence: The free radicals are released when oxygen carrying red blood cells called haemoglobin die.
+Entity: The
+Answer: No.
+
+Sentence: As mentioned earlier, ah, it had been postponed again and again, but by way of this kind of opportunity, well, Putin's visit to Japan was smoothly accomplished.
+Entity: visit
+Answer: Yes.
+
+Sentence: -LSB- -RSB- How Come My Hubby has n't been Able to Find a Job in My Place, What can I Do?
+Entity: My
+Answer: No.
+
+Sentence: If these assumptions hold, voters in races for Congress face what in economic theory is called a prisoner's dilemma and have an incentive, at the margin, to lean Democratic.
+Entity: If
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/location/geograpy" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

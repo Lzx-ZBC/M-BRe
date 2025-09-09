@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/organization/music" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: If she wants everyone to gush over the baby, but it's a closed adoption and you do n't want to get close to a baby you'll really never see again, then also do what is most comfortable for you.
+Entity: gush
+Answer: Yes.
+
+Sentence: In the qualifying sessions on Saturday the track looked like a vision of MX heaven with a cushion of soft loam about 2 feet thick all the way around but it pretty quickly started to develop some deep ruts in the low-lying areas and some Texas-sized braking and acceleration bumps.
+Entity: Saturday
+Answer: No.
+
+Sentence: In the days when the seventh angel is ready to blow his trumpet, God's secret plan will be completed -- the Good News that God told to his servants, the prophets.''
+Entity: seventh angel
+Answer: Yes.
+
+Sentence: We never care about Said or the `` hypocrites'' he hunts.
+Entity: We
+Answer: No.
+
+Sentence: If you inked Santana to a long term deal... that's
+Entity: Santana
+Answer: Yes.
+
+Sentence: He noted that Al-Maliki had told him, `` Let the Sunnis go as refugees outside the country for 30 years and then let them come for us to reconcile with them. ``
+Entity: He
+Answer: No.
+
+Sentence: `` We were able to get advertisers to use their promotion budget for this, because they get a chance to do couponing,'' says Ms. Seaman.
+Entity: We
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/organization/music" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

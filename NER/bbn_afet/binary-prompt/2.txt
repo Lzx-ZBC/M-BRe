@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/EVENT" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: But are these four players, three of them in their 80s, ready to assume a different role after 88 years, collectively, of service on the high court?
+Entity: 80s
+Answer: Yes.
+
+Sentence: The Peruvian minerals concern had been seeking a claim of $251 million against Mr. Hunt.
+Entity: The
+Answer: No.
+
+Sentence: Results included a $37 million gain from the sale of rights from Chevron's investment in Amax Inc., and a loss of $30 million from the sale of California oil and gas properties.
+Entity: Results
+Answer: Yes.
+
+Sentence: The Philippine government awarded Finland's Outokumpu Oy the contract to upgrade the facilities of Philippine Associated Smelting & amp; Refining Corp., according to documents from National Development Corp., one of Philippine company's owners.
+Entity: Associated
+Answer: No.
+
+Sentence: The talks in New York are the first since Bush and Soviet Foreign Minister Shevardnadze unveiled proposals in September to scrap existing weapons.
+Entity: talks
+Answer: Yes.
+
+Sentence: Some may be tempted to argue that the idea of a strategic review merely resurrects the infamous Zero-Based Budgeting (ZBB) concept of the Carter administration.
+Entity: strategic review
+Answer: No.
+
+Sentence: Field offices at New Orleans; Houston; Denver; Midland, Tex.; Bakersfield, Calif.; Oklahoma City; and Liberal, Kan., will be maintained.
+Entity: Bakersfield
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/EVENT" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:

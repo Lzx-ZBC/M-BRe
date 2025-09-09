@@ -1,0 +1,38 @@
+Given a sentence, determine whether it describes the fine-grained label "/FACILITY/BUILDING" of target entity in the sentence. If it does, simply output "Yes". Otherwise, simply output "No".
+
+Here are several examples.
+
+Sentence: Employers Casualty, which reported a $53.9 million third-quarter loss late Friday, fell 2 to 13.
+Entity: Casualty
+Answer: Yes.
+
+Sentence: Mr. Bussieres was president and chief operating officer of Provigo's Quebec retail and wholesale grocery unit.
+Entity: president
+Answer: No.
+
+Sentence: British postal authorities say they have uncovered a large-scale scheme where unscrupulous stamp dealers chemically removed stamp cancellations, regummed the stamps and sold them to U.S. collectors or, in large lots, to British businesses.
+Entity: uncovered
+Answer: Yes.
+
+Sentence: `` Instead of buying masks for your kids, just cut out the columnists' pictures....
+Entity: kids
+Answer: No.
+
+Sentence: `` A day of reckoning is coming where we think the market will place a high premium on the highest-quality debt issues, and therefore we think the best debt investment is U.S. government bonds,'' says Craig Corcoran of Davis\/Zweig Futures Inc., an investment advisory firm.
+Entity: Corcoran
+Answer: Yes.
+
+Sentence: The Treasury plans to raise $1.8 billion in new cash with the sale Monday of about $15.6 billion in short-term bills to redeem $13.81 billion in maturing bills.
+Entity: Monday
+Answer: No.
+
+Sentence: We are able to increase our price above the $70 level if necessary.
+Entity: We
+Answer: No.
+
+Below is the target sentence and the provided entity. Please determine if there is a "/FACILITY/BUILDING" label of target entity in the sentence.
+
+Target Sentence: (TEXT)
+provided entity: (PE)
+
+Target Answer:
